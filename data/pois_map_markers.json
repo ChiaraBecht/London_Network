@@ -283,13 +283,15 @@
     "location_name": "Kyoto Garden, London",
     "lat": 51.5030786,
     "lon": -0.2045268,
-    "category": "Garden"
+    "category": "Sight",
+    "description": "Garden"
   },
   {
     "location_name": "The Hill Garden and Pergola, London",
     "lat": 51.5656015,
     "lon": -0.1839671,
-    "category": "Garden"
+    "category": "Sight",
+    "description": "Garden"
   },
   {
     "location_name": "Italian Gardens, London",
@@ -407,19 +409,22 @@
     "location_name": "Society of middle Temple",
     "lat": 51.512088,
     "lon": -0.1103,
-    "category": "Rubinrot Location"
+    "category": "Sight",
+    "description": "Rubinrot Location"
   },
   {
     "location_name": "Trinity Church Belgravia",
     "lat": 51.493199,
     "lon": -0.156791,
-    "category": "Rubinrot Location"
+    "category": "Sight",
+    "description": "Rubinrot Location"
   },
   {
     "location_name": "Inner Temple Library",
     "lat": 51.51299,
     "lon": -0.10985,
-    "category": "Rubinrot Location"
+    "category": "Sight",
+    "description": "Rubinrot Location"
   },
   {
     "location_name": "British Library",
