@@ -45,7 +45,7 @@ m = folium.Map(location=[51.501016, -0.123107], tiles='OpenStreetMap', zoom_star
 
 # Add markers
 for p in filtered_markers:
-    tooltip_text = f"{p['location_name']}<br><i>{p['category']} in {p['description']}</i>"
+    tooltip_text = f"{p['location_name']}<br><i>{p['description']}</i>"
     folium.CircleMarker(
         location=[p['lat'], p['lon']],
         radius=6,
