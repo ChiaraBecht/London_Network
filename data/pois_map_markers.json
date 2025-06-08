@@ -3,241 +3,281 @@
     "location_name": "1 Craven Hill Gardens, London",
     "lat": 51.5119614,
     "lon": -0.1820618,
-    "category": "Hotel"
+    "category": "Hotel",
+    "description": "Hotel"
   },
   {
     "location_name": "British Museum, London",
     "lat": 51.5193117,
     "lon": -0.1267051,
-    "category": "Museum"
+    "category": "Sight",
+    "description": "Museum"
   },
   {
     "location_name": "Natural History Museum, London",
     "lat": 51.4965109,
     "lon": -0.1760019,
-    "category": "Museum"
+    "category": "Sight",
+    "description": "Museum"
   },
   {
     "location_name": "Science Museum, London",
     "lat": 51.4973983,
     "lon": -0.1746726,
-    "category": "Museum"
+    "category": "Sight",
+    "description": "Museum"
   },
   {
     "location_name": "Saint Paul\u00b4s Cathedral, London",
     "lat": 51.5137871,
     "lon": -0.0984506,
-    "category": "Church"
+    "category": "Sight",
+    "description": "Church"
   },
   {
     "location_name": "Westminster Abbey",
     "lat": 51.499399,
     "lon": -0.127391,
-    "category": "Church"
+    "category": "Sight",
+    "description": "Church"
   },
   {
     "location_name": "Tower Bridge, London",
     "lat": 51.5055158,
     "lon": -0.0753665,
-    "category": "Bridge"
+    "category": "Sight",
+    "description": "Bridge"
   },
   {
     "location_name": "Millennium Bridge",
     "lat": 51.5098883,
     "lon": -0.0985076,
-    "category": "Bridge"
+    "category": "Sight",
+    "description": "Bridge"
   },
   {
     "location_name": "Big Ben, London",
     "lat": 51.5007042,
     "lon": -0.1245721,
-    "category": "Monument, plotical building"
+    "category": "Sight",
+    "description": "Monument, plotical building"
   },
   {
     "location_name": "Palace of Westminster",
     "lat": 51.4993886,
     "lon": -0.124481,
-    "category": "Monument, plotical building"
+    "category": "Sight",
+    "description": "Monument, plotical building"
   },
   {
     "location_name": "Buckingham Palace, London",
     "lat": 51.5008349,
     "lon": -0.1430045,
-    "category": "Monument, plotical building"
+    "category": "Sight",
+    "description": "Monument, plotical building"
   },
   {
     "location_name": "Tower of London, London",
     "lat": 51.508217,
     "lon": -0.0761879,
-    "category": "Monument, plotical building"
+    "category": "Sight",
+    "description": "Monument, plotical building"
   },
   {
     "location_name": "Piccadilly Circus, London",
     "lat": 51.5097922,
     "lon": -0.1344288,
-    "category": "Monument, plotical building"
+    "category": "Sight",
+    "description": "Monument, plotical building"
   },
   {
     "location_name": "Chinatown Gate, London",
     "lat": 51.5109933,
     "lon": -0.1318175,
-    "category": "Monument, plotical building"
+    "category": "Sight",
+    "description": "Monument, plotical building"
   },
   {
     "location_name": "Trafalgar Square, London",
     "lat": 51.5084502,
     "lon": -0.1284499,
-    "category": "Monument, plotical building"
+    "category": "Sight",
+    "description": "Monument, plotical building"
   },
   {
     "location_name": "Camden Market, London",
     "lat": 51.5423781,
     "lon": -0.1471949,
-    "category": "Market or Street"
+    "category": "Sight",
+    "description": "Market or Street"
   },
   {
     "location_name": "Leadenhall Market, London",
     "lat": 51.5127276,
     "lon": -0.0833953,
-    "category": "Market or Street"
+    "category": "Sight",
+    "description": "Market or Street"
   },
   {
     "location_name": "Royal Exchange, London",
     "lat": 51.4084187,
     "lon": -0.3028117,
-    "category": "Market or Street"
+    "category": "Sight",
+    "description": "Market or Street"
   },
   {
     "location_name": "Covent Garden Market, London",
     "lat": 51.5119791,
     "lon": -0.1227413,
-    "category": "Market or Street"
+    "category": "Sight",
+    "description": "Market or Street"
   },
   {
     "location_name": "Floral Court, London",
     "lat": 51.5116797,
     "lon": -0.125085,
-    "category": "Market or Street"
+    "category": "Sight",
+    "description": "Market or Street"
   },
   {
     "location_name": "Floral St, London",
     "lat": 51.5121353,
     "lon": -0.1249686,
-    "category": "Market or Street"
+    "category": "Sight",
+    "description": "Market or Street"
   },
   {
     "location_name": "Neal\u2019s Yard, London",
     "lat": 51.5144273,
     "lon": -0.1263781,
-    "category": "Market or Street"
+    "category": "Sight",
+    "description": "Market or Street"
   },
   {
     "location_name": "Fleet St, London",
     "lat": 51.5141437,
     "lon": -0.1092872,
-    "category": "Market or Street"
+    "category": "Sight",
+    "description": "Market or Street"
   },
   {
     "location_name": "Royal Albert Hall, London",
     "lat": 51.501007,
     "lon": -0.1774058,
-    "category": "Theater or Cinema"
+    "category": "Sight",
+    "description": "Theater or Cinema"
   },
   {
     "location_name": "Shakespeare's Globe, London",
     "lat": 51.5081196,
     "lon": -0.0971867,
-    "category": "Theater or Cinema"
+    "category": "Sight",
+    "description": "Theater or Cinema"
   },
   {
     "location_name": "Royal Opera House, London",
     "lat": 51.5128732,
     "lon": -0.1225639,
-    "category": "Theater or Cinema"
+    "category": "Sight",
+    "description": "Theater or Cinema"
   },
   {
     "location_name": "Electric Cinema, London",
     "lat": 51.515524,
     "lon": -0.2050651,
-    "category": "Theater or Cinema"
+    "category": "Sight",
+    "description": "Theater or Cinema"
   },
   {
     "location_name": "Vaudeville Theatre, London",
     "lat": 51.5105309,
     "lon": -0.1225862,
-    "category": "Theater or Cinema"
+    "category": "Sight",
+    "description": "Theater or Cinema"
   },
   {
     "location_name": "Harrods, London",
     "lat": 51.4992104,
     "lon": -0.1629893,
-    "category": "Shopping"
+    "category": "Shopping",
+    "description": "Shopping"
   },
   {
     "location_name": "Oxford St, London",
-    "lat": 51.515117,
-    "lon": -0.1433791,
-    "category": "Shopping"
+    "lat": 51.5138053,
+    "lon": -0.1548743,
+    "category": "Shopping",
+    "description": "Shopping"
   },
   {
     "location_name": "Selfridges, London",
     "lat": 51.5145955,
     "lon": -0.1528294,
-    "category": "Shopping"
+    "category": "Shopping",
+    "description": "Shopping"
   },
   {
     "location_name": "Waterstones Piccadilly",
     "lat": 51.509265,
     "lon": -0.136069,
-    "category": "Shopping"
+    "category": "Shopping",
+    "description": "Shopping"
   },
   {
     "location_name": "Daunt Books 1",
     "lat": 51.516644,
     "lon": -0.088951,
-    "category": "Shopping"
+    "category": "Shopping",
+    "description": "Shopping"
   },
   {
     "location_name": "Daunt Books 2",
     "lat": 51.520881,
     "lon": -0.152178,
-    "category": "Shopping"
+    "category": "Shopping",
+    "description": "Shopping"
   },
   {
     "location_name": "Sky Garden, London",
     "lat": 51.5112699,
     "lon": -0.0835396,
-    "category": "Roof Top"
+    "category": "Sight",
+    "description": "Roof Top"
   },
   {
     "location_name": "Horizon 22, London",
     "lat": 51.514367,
     "lon": -0.083149,
-    "category": "Roof Top"
+    "category": "Sight",
+    "description": "Roof Top"
   },
   {
     "location_name": "The Garden at 120, London",
     "lat": 51.5122226,
     "lon": -0.0808791,
-    "category": "Roof Top"
+    "category": "Sight",
+    "description": "Roof Top"
   },
   {
     "location_name": "Outernet, London",
     "lat": 51.515643,
     "lon": -0.1297955,
-    "category": "Roof Top"
+    "category": "Sight",
+    "description": "Roof Top"
   },
   {
     "location_name": "One New Change",
     "lat": 51.5138561,
     "lon": -0.0950481,
-    "category": "Roof Top"
+    "category": "Sight",
+    "description": "Roof Top"
   },
   {
     "location_name": "Crossrail Place Roof Garden, London",
     "lat": 51.5061021,
     "lon": -0.0176032,
-    "category": "Roof Top"
+    "category": "Sight",
+    "description": "Roof Top"
   },
   {
     "location_name": "Kyoto Garden, London",
@@ -255,97 +295,113 @@
     "location_name": "Italian Gardens, London",
     "lat": 51.5104678,
     "lon": -0.1754714,
-    "category": "Hyde Park"
+    "category": "Sight",
+    "description": "Hyde Park"
   },
   {
     "location_name": "Speakers\u2019 Corner, London",
     "lat": 51.5118775,
     "lon": -0.1600973,
-    "category": "Hyde Park"
+    "category": "Sight",
+    "description": "Hyde Park"
   },
   {
     "location_name": "The Old Police House, London",
     "lat": 51.5081181,
     "lon": -0.1653943,
-    "category": "Hyde Park"
+    "category": "Sight",
+    "description": "Hyde Park"
   },
   {
     "location_name": "Wellington Arch, London",
     "lat": 51.5025031,
     "lon": -0.1508199,
-    "category": "Hyde Park"
+    "category": "Sight",
+    "description": "Hyde Park"
   },
   {
     "location_name": "Platform 9 3/4, London",
     "lat": 51.5321868,
     "lon": -0.1239137,
-    "category": "Harry Potter Location"
+    "category": "Sight",
+    "description": "Harry Potter Location"
   },
   {
     "location_name": "Leadenhall Market, London",
     "lat": 51.5127276,
     "lon": -0.0833953,
-    "category": "Harry Potter Location"
+    "category": "Sight",
+    "description": "Harry Potter Location"
   },
   {
     "location_name": "Australian High Commission, London",
     "lat": 51.5128785,
     "lon": -0.1155906,
-    "category": "Harry Potter Location"
+    "category": "Sight",
+    "description": "Harry Potter Location"
   },
   {
     "location_name": "House of MinaLima, London",
     "lat": 51.5133738,
     "lon": -0.1302753,
-    "category": "Harry Potter Location"
+    "category": "Sight",
+    "description": "Harry Potter Location"
   },
   {
     "location_name": "Warner Bros. Studio Tour London",
     "lat": 51.6909507,
     "lon": -0.4183162,
-    "category": "Harry Potter Location"
+    "category": "Sight",
+    "description": "Harry Potter Location"
   },
   {
     "location_name": "81 Bourdon Pl, London",
     "lat": 51.5111471,
     "lon": -0.1459883,
-    "category": "Rubinrot Location"
+    "category": "Sight",
+    "description": "Rubinrot Location"
   },
   {
     "location_name": "Inner Temple Gardens, London",
     "lat": 51.5118538,
     "lon": -0.1096665,
-    "category": "Rubinrot Location"
+    "category": "Sight",
+    "description": "Rubinrot Location"
   },
   {
     "location_name": "Fountain Court, London",
     "lat": 51.4031537,
     "lon": -0.3369452,
-    "category": "Rubinrot Location"
+    "category": "Sight",
+    "description": "Rubinrot Location"
   },
   {
     "location_name": "Temple Church, London",
     "lat": 51.5132574,
     "lon": -0.1102238,
-    "category": "Rubinrot Location"
+    "category": "Sight",
+    "description": "Rubinrot Location"
   },
   {
     "location_name": "King\u2019s College London, London",
     "lat": 51.5030855,
     "lon": -0.0900021,
-    "category": "Rubinrot Location"
+    "category": "Sight",
+    "description": "Rubinrot Location"
   },
   {
     "location_name": "Two Temple Place, London",
     "lat": 51.5116444,
     "lon": -0.1121998,
-    "category": "Rubinrot Location"
+    "category": "Sight",
+    "description": "Rubinrot Location"
   },
   {
     "location_name": "Royal Courts of Justice, London",
     "lat": 51.5142194,
     "lon": -0.1132167,
-    "category": "Rubinrot Location"
+    "category": "Sight",
+    "description": "Rubinrot Location"
   },
   {
     "location_name": "Society of middle Temple",
@@ -369,6 +425,7 @@
     "location_name": "British Library",
     "lat": 51.5299119,
     "lon": -0.1276918,
-    "category": "Invisible Library Location"
+    "category": "Sight",
+    "description": "Invisible Library Location"
   }
 ]
