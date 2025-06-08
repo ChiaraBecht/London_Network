@@ -21,7 +21,7 @@ selected_categories = st.sidebar.multiselect(
 # Category-to-color mapping
 category_colors = {
     'Sight': 'blue',
-    'Shopping': 'pink',
+    'Shopping': 'purple',
     #'food': 'green',
     'Hotel': 'black'#'purple',
     # Add more if needed
