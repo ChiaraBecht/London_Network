@@ -36,7 +36,7 @@ for marker in pois_map_markers:
         radius=5,
         color=category_colors[marker['category']],
         fill=True,
-        fill_color='red',
+        fill_color=category_colors[marker['category']],
         fill_opacity=0.8,
         tooltip=marker['location_name']
     ).add_to(london_map)
