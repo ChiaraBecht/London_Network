@@ -33,7 +33,7 @@ category_colors = {
 # Filter data
 filtered_markers = [
     p for p in pois_map_markers
-    if p['category'] in selected_categories and p['description'] in descriptions
+    if p['category'] in selected_categories and p['description'] in selected_descriptions
 ]
 
 # Create Folium Map
