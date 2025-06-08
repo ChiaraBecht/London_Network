@@ -34,7 +34,7 @@ for marker in pois_map_markers:
     folium.CircleMarker(
         location=[marker['lat'], marker['lon']],
         radius=5,
-        color='darkred',
+        color=category_colors[marker['category']],
         fill=True,
         fill_color='red',
         fill_opacity=0.8,
