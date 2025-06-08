@@ -7,6 +7,25 @@ import json
 with open('data/pois_map_markers.json', 'r') as f:
     pois_map_markers = json.load(f)
 
+# Get unique categories from the data
+categories = sorted(set(marker['category'] for marker in pois_map_markers))
+
+# Sidebar for category filter
+st.sidebar.title("Filter by Category")
+selected_categories = st.sidebar.multiselect(
+    "Select one or more categories",
+    categories,
+    default=categories  # Show all by default
+)
+
+# Category-to-color mapping
+category_colors = {
+    'sight': 'blue',
+    'food': 'green',
+    'hotel': 'purple',
+    # Add more if needed
+}
+
 # Create Folium Map
 london_map = folium.Map(location=[51.501016, -0.123107], tiles='OpenStreetMap', zoom_start=13)
 
