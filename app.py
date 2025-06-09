@@ -55,7 +55,7 @@ for p in filtered_markers:
         radius=6,
         color=color,
         fill=True,
-        fill_color=category_colors[p['category']],
+        fill_color=color,
         fill_opacity=0.9,
         tooltip=tooltip_text,
     ).add_to(m)
