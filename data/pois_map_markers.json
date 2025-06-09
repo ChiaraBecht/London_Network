@@ -43,8 +43,8 @@
   },
   {
     "location_name": "Tower Bridge, London",
-    "lat": 51.5055158,
-    "lon": -0.0753665,
+    "lat": 51.5055166,
+    "lon": -0.0753662,
     "category": "Sight",
     "description": "Bridge"
   },
@@ -801,7 +801,7 @@
     "location_name": "The Top Secret Comedy Club",
     "lat": 51.51564,
     "lon": -0.12326,
-    "category": "Theater or Cinema",
-    "description": "Club"
+    "category": "Sight",
+    "description": "Theater or Cinema"
   }
 ]
