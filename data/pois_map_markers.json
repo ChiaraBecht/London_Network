@@ -105,6 +105,27 @@
     "description": "Monument, plotical building"
   },
   {
+    "location_name": "Royal Court of Justice",
+    "lat": 51.51394,
+    "lon": -0.11326,
+    "category": "Sight",
+    "description": "Monument, political building"
+  },
+  {
+    "location_name": "Kensington Palace",
+    "lat": 51.50608,
+    "lon": -0.1877,
+    "category": "Sight",
+    "description": "Monument, political building"
+  },
+  {
+    "location_name": "London Wall",
+    "lat": 51.51015,
+    "lon": -0.07602,
+    "category": "Sight",
+    "description": "Monument, political building"
+  },
+  {
     "location_name": "Camden Market, London",
     "lat": 51.5423781,
     "lon": -0.1471949,
@@ -161,6 +182,13 @@
     "description": "Market or Street"
   },
   {
+    "location_name": "Borough Market",
+    "lat": 51.50589,
+    "lon": -0.09046,
+    "category": "Sight",
+    "description": "Market or Street"
+  },
+  {
     "location_name": "Royal Albert Hall, London",
     "lat": 51.501007,
     "lon": -0.1774058,
@@ -192,6 +220,13 @@
     "location_name": "Vaudeville Theatre, London",
     "lat": 51.5105309,
     "lon": -0.1225862,
+    "category": "Sight",
+    "description": "Theater or Cinema"
+  },
+  {
+    "location_name": "West End, London",
+    "lat": 51.5902914,
+    "lon": -0.3894287,
     "category": "Sight",
     "description": "Theater or Cinema"
   },
@@ -234,6 +269,20 @@
     "location_name": "Daunt Books 2",
     "lat": 51.520881,
     "lon": -0.152178,
+    "category": "Shopping",
+    "description": "Shopping"
+  },
+  {
+    "location_name": "John Sandoe Books",
+    "lat": 51.49161,
+    "lon": -0.16108,
+    "category": "Shopping",
+    "description": "Shopping"
+  },
+  {
+    "location_name": "Camden Passage",
+    "lat": 51.53482,
+    "lon": -0.10398,
     "category": "Shopping",
     "description": "Shopping"
   },
@@ -290,6 +339,20 @@
     "location_name": "The Hill Garden and Pergola, London",
     "lat": 51.5656015,
     "lon": -0.1839671,
+    "category": "Sight",
+    "description": "Garden"
+  },
+  {
+    "location_name": "St Dunstan-in-the-East Church Garden",
+    "lat": 51.50984,
+    "lon": -0.08247,
+    "category": "Sight",
+    "description": "Garden"
+  },
+  {
+    "location_name": "Holly Village",
+    "lat": 51.56309,
+    "lon": -0.14641,
     "category": "Sight",
     "description": "Garden"
   },
@@ -353,6 +416,13 @@
     "location_name": "Warner Bros. Studio Tour London",
     "lat": 51.6909507,
     "lon": -0.4183162,
+    "category": "Sight",
+    "description": "Harry Potter Location"
+  },
+  {
+    "location_name": "Goodwin's Court",
+    "lat": 51.51112,
+    "lon": -0.12626,
     "category": "Sight",
     "description": "Harry Potter Location"
   },
@@ -432,5 +502,313 @@
     "lon": -0.1276918,
     "category": "Sight",
     "description": "Invisible Library Location"
+  },
+  {
+    "location_name": "Royal Courts of Justice, London",
+    "lat": 51.4875993,
+    "lon": -0.1227623,
+    "category": "Food",
+    "description": "Food Hall"
+  },
+  {
+    "location_name": "Royal Courts of Justice, London",
+    "lat": 51.5130789,
+    "lon": -0.1532466,
+    "category": "Food",
+    "description": "Food Hall"
+  },
+  {
+    "location_name": "Maltby Street Market",
+    "lat": 51.49982,
+    "lon": -0.07593,
+    "category": "Food",
+    "description": "Food Hall"
+  },
+  {
+    "location_name": "Pastino",
+    "lat": 51.52247,
+    "lon": -0.13603,
+    "category": "Food",
+    "description": "Restaurant"
+  },
+  {
+    "location_name": "Bancone Kensington",
+    "lat": 51.50094,
+    "lon": -0.19287,
+    "category": "Food",
+    "description": "Restaurant"
+  },
+  {
+    "location_name": "Bancone Covent Garden",
+    "lat": 51.50971,
+    "lon": -0.12645,
+    "category": "Food",
+    "description": "Restaurant"
+  },
+  {
+    "location_name": "Bancone Golden Square",
+    "lat": 51.51149,
+    "lon": -0.13646,
+    "category": "Food",
+    "description": "Restaurant"
+  },
+  {
+    "location_name": "Bancone Borough Yards",
+    "lat": 51.50668,
+    "lon": -0.09161,
+    "category": "Food",
+    "description": "Restaurant"
+  },
+  {
+    "location_name": "Guido's Chancery Lane",
+    "lat": 51.51588,
+    "lon": -0.11185,
+    "category": "Food",
+    "description": "Restaurant"
+  },
+  {
+    "location_name": "Guido's Kingsway",
+    "lat": 51.51418,
+    "lon": -0.11759,
+    "category": "Food",
+    "description": "Restaurant"
+  },
+  {
+    "location_name": "Guido's New Fetter Lane",
+    "lat": 51.51749,
+    "lon": -0.10793,
+    "category": "Food",
+    "description": "Restaurant"
+  },
+  {
+    "location_name": "Guido's Camden Lock",
+    "lat": 51.54144,
+    "lon": -0.14621,
+    "category": "Food",
+    "description": "Restaurant"
+  },
+  {
+    "location_name": "Tavolino Bar & Kitchen",
+    "lat": 51.50565,
+    "lon": -0.08027,
+    "category": "Food",
+    "description": "Restaurant"
+  },
+  {
+    "location_name": "Comptoir Libanais Shepherd's Bush",
+    "lat": 51.51061,
+    "lon": -0.22207,
+    "category": "Food",
+    "description": "Restaurant"
+  },
+  {
+    "location_name": "Comptoir Libanais Chelsea",
+    "lat": 51.49318,
+    "lon": -0.15899,
+    "category": "Food",
+    "description": "Restaurant"
+  },
+  {
+    "location_name": "Comptoir Libanais Kensington",
+    "lat": 51.49826,
+    "lon": -0.17472,
+    "category": "Food",
+    "description": "Restaurant"
+  },
+  {
+    "location_name": "Comptoir Libanais Wigmore Street",
+    "lat": 51.51956,
+    "lon": -0.15231,
+    "category": "Food",
+    "description": "Restaurant"
+  },
+  {
+    "location_name": "Comptoir Libanais Southbank Centre",
+    "lat": 51.50873,
+    "lon": -0.11699,
+    "category": "Food",
+    "description": "Restaurant"
+  },
+  {
+    "location_name": "Comptoir Libanais London Bridge",
+    "lat": 51.50723,
+    "lon": -0.08437,
+    "category": "Food",
+    "description": "Restaurant"
+  },
+  {
+    "location_name": "Comptoir Libanais Liverpool Street",
+    "lat": 51.52411,
+    "lon": -0.08437,
+    "category": "Food",
+    "description": "Restaurant"
+  },
+  {
+    "location_name": "Trafalgar Tavern",
+    "lat": 51.48526,
+    "lon": -0.0042,
+    "category": "Food",
+    "description": "Restaurant"
+  },
+  {
+    "location_name": "Dream Xi'An Biangbiang Noodles",
+    "lat": 51.50911,
+    "lon": -0.07937,
+    "category": "Food",
+    "description": "Restaurant"
+  },
+  {
+    "location_name": "Haute Dolci the O2 luxury food and deserts",
+    "lat": 51.50445,
+    "lon": 0.00425,
+    "category": "Food",
+    "description": "Restaurant"
+  },
+  {
+    "location_name": "Terrace Bakery middle eastern",
+    "lat": 51.52711,
+    "lon": -0.25974,
+    "category": "Food",
+    "description": "Restaurant"
+  },
+  {
+    "location_name": "Gnocchi Bar",
+    "lat": 51.54169,
+    "lon": -0.14628,
+    "category": "Food",
+    "description": "Restaurant"
+  },
+  {
+    "location_name": "Portobello Ristorante & Pizzeria",
+    "lat": 51.51151,
+    "lon": -0.19795,
+    "category": "Food",
+    "description": "Restaurant"
+  },
+  {
+    "location_name": "The Wallace Resturant",
+    "lat": 51.51786,
+    "lon": -0.015289,
+    "category": "Food",
+    "description": "Restaurant"
+  },
+  {
+    "location_name": "Waxy's O'Connor's Pub",
+    "lat": 51.51099,
+    "lon": -0.13238,
+    "category": "Drinks",
+    "description": "Pub"
+  },
+  {
+    "location_name": "The Sherlock Holmes Pub",
+    "lat": 51.50748,
+    "lon": -0.12522,
+    "category": "Drinks",
+    "description": "Pub"
+  },
+  {
+    "location_name": "The Holly Bush Pub",
+    "lat": 51.56137,
+    "lon": -0.18011,
+    "category": "Drinks",
+    "description": "Pub"
+  },
+  {
+    "location_name": "The Lamb & Flag Pub",
+    "lat": 51.5119,
+    "lon": -0.12568,
+    "category": "Drinks",
+    "description": "Pub"
+  },
+  {
+    "location_name": "Terrace Bakery middle eastern",
+    "lat": 51.52711,
+    "lon": -0.25974,
+    "category": "Cafe",
+    "description": "Brunch"
+  },
+  {
+    "location_name": "Co. pricey",
+    "lat": 51.50232,
+    "lon": -0.16309,
+    "category": "Cafe",
+    "description": "Coffee"
+  },
+  {
+    "location_name": "Attendant Coffee Roasters - Fritzrovia",
+    "lat": 51.51947,
+    "lon": -0.14065,
+    "category": "Cafe",
+    "description": "Coffee"
+  },
+  {
+    "location_name": "Java Whiskers Cat Cafe White City",
+    "lat": 51.51094,
+    "lon": -0.22324,
+    "category": "Cafe",
+    "description": "Pastries"
+  },
+  {
+    "location_name": "Java Whiskers Cat Cafe Marylebone",
+    "lat": 51.5212,
+    "lon": -0.14239,
+    "category": "Cafe",
+    "description": "Pastries"
+  },
+  {
+    "location_name": "Jack and Beyond unlimited cake",
+    "lat": 51.4711,
+    "lon": -0.17238,
+    "category": "Cafe",
+    "description": "Pastries"
+  },
+  {
+    "location_name": "The Wallace Cafe",
+    "lat": 51.51786,
+    "lon": -0.015289,
+    "category": "Cafe",
+    "description": "Pastries"
+  },
+  {
+    "location_name": "Le Deli Robuchon Piccadilly",
+    "lat": 51.50739,
+    "lon": -0.14396,
+    "category": "Cafe",
+    "description": "Pastries"
+  },
+  {
+    "location_name": "Brick Lane Bagel Co",
+    "lat": 51.50619,
+    "lon": -0.02015,
+    "category": "Fast Food",
+    "description": "Fast Food"
+  },
+  {
+    "location_name": "Circe's Rooftop",
+    "lat": 51.50327,
+    "lon": -0.11037,
+    "category": "Drinks",
+    "description": "Bar"
+  },
+  {
+    "location_name": "Cahoots Postal Office",
+    "lat": 51.50604,
+    "lon": -0.09168,
+    "category": "Drinks",
+    "description": "Bar"
+  },
+  {
+    "location_name": "Belle Livingstone's Jazz Club",
+    "lat": 51.46995,
+    "lon": -0.06708,
+    "category": "Drinks",
+    "description": "Club"
+  },
+  {
+    "location_name": "The Top Secret Comedy Club",
+    "lat": 51.51564,
+    "lon": -0.12326,
+    "category": "Theater or Cinema",
+    "description": "Club"
   }
 ]
