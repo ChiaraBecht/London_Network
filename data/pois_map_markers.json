@@ -43,8 +43,8 @@
   },
   {
     "location_name": "Tower Bridge, London",
-    "lat": 51.5055166,
-    "lon": -0.0753662,
+    "lat": 51.5055158,
+    "lon": -0.0753665,
     "category": "Sight",
     "description": "Bridge"
   },
@@ -176,8 +176,8 @@
   },
   {
     "location_name": "Fleet St, London",
-    "lat": 51.5141437,
-    "lon": -0.1092872,
+    "lat": 51.5136636,
+    "lon": -0.1119751,
     "category": "Sight",
     "description": "Market or Street"
   },
@@ -239,8 +239,8 @@
   },
   {
     "location_name": "Oxford St, London",
-    "lat": 51.5138053,
-    "lon": -0.1548743,
+    "lat": 51.5151531,
+    "lon": -0.1431002,
     "category": "Shopping",
     "description": "Shopping"
   },
@@ -497,14 +497,14 @@
     "description": "Invisible Library Location"
   },
   {
-    "location_name": "Two Temple Place, London",
+    "location_name": "food hall vauxhall",
     "lat": 51.4875993,
     "lon": -0.1227623,
     "category": "Food",
     "description": "Food Hall"
   },
   {
-    "location_name": "Two Temple Place, London",
+    "location_name": "Mercato Mayfair",
     "lat": 51.5130789,
     "lon": -0.1532466,
     "category": "Food",
