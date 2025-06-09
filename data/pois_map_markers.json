@@ -686,6 +686,69 @@
     "description": "Restaurant"
   },
   {
+    "location_name": "Farzi Indian Restaurant",
+    "lat": 51.50921,
+    "lon": -0.13189,
+    "category": "Food",
+    "description": "Restaurant"
+  },
+  {
+    "location_name": "Yaatra Indian Restaurant",
+    "lat": 51.49676,
+    "lon": -0.13425,
+    "category": "Food",
+    "description": "Restaurant"
+  },
+  {
+    "location_name": "Bellazul mediterranean",
+    "lat": 51.51837,
+    "lon": -0.15448,
+    "category": "Food",
+    "description": "Restaurant"
+  },
+  {
+    "location_name": "La Rueda Tapas Bar",
+    "lat": 51.51244,
+    "lon": -0.30608,
+    "category": "Food",
+    "description": "Restaurant"
+  },
+  {
+    "location_name": "Shoryu Ramen Carnaby",
+    "lat": 51.51284,
+    "lon": -0.13906,
+    "category": "Food",
+    "description": "Restaurant"
+  },
+  {
+    "location_name": "Shoryu Ramen Soho",
+    "lat": 51.51127,
+    "lon": -0.13395,
+    "category": "Food",
+    "description": "Restaurant"
+  },
+  {
+    "location_name": "Shoryu Ramen Regent Street",
+    "lat": 51.50844,
+    "lon": -0.13386,
+    "category": "Food",
+    "description": "Restaurant"
+  },
+  {
+    "location_name": "Thonglor Thai",
+    "lat": 51.53784,
+    "lon": -0.18467,
+    "category": "Food",
+    "description": "Restaurant"
+  },
+  {
+    "location_name": "PaStation",
+    "lat": 51.52092,
+    "lon": -0.1348,
+    "category": "Food",
+    "description": "Restaurant"
+  },
+  {
     "location_name": "Waxy's O'Connor's Pub",
     "lat": 51.51099,
     "lon": -0.13238,
@@ -721,6 +784,20 @@
     "description": "Brunch"
   },
   {
+    "location_name": "Greek Street Live Brunch",
+    "lat": 51.5149,
+    "lon": -0.13115,
+    "category": "Cafe",
+    "description": "Brunch"
+  },
+  {
+    "location_name": "The Table Cafe",
+    "lat": 51.50579,
+    "lon": -0.09986,
+    "category": "Cafe",
+    "description": "Brunch"
+  },
+  {
     "location_name": "Co. pricey",
     "lat": 51.50232,
     "lon": -0.16309,
@@ -733,6 +810,13 @@
     "lon": -0.14065,
     "category": "Cafe",
     "description": "Coffee"
+  },
+  {
+    "location_name": "Secret Layers Tiramisu experience",
+    "lat": 51.51322,
+    "lon": -0.17804,
+    "category": "Cafe",
+    "description": "Pastries"
   },
   {
     "location_name": "Java Whiskers Cat Cafe White City",
@@ -770,9 +854,23 @@
     "description": "Pastries"
   },
   {
+    "location_name": "Beigel Shop Bakery",
+    "lat": 51.52448,
+    "lon": -0.07172,
+    "category": "Cafe",
+    "description": "Pastries"
+  },
+  {
     "location_name": "Brick Lane Bagel Co",
     "lat": 51.50619,
     "lon": -0.02015,
+    "category": "Food",
+    "description": "Fast Food"
+  },
+  {
+    "location_name": "Common Pizza",
+    "lat": 51.4609,
+    "lon": -0.14327,
     "category": "Food",
     "description": "Fast Food"
   },
@@ -787,6 +885,20 @@
     "location_name": "Cahoots Postal Office",
     "lat": 51.50604,
     "lon": -0.09168,
+    "category": "Drinks",
+    "description": "Bar"
+  },
+  {
+    "location_name": "Greek Street Live",
+    "lat": 51.5149,
+    "lon": -0.13115,
+    "category": "Drinks",
+    "description": "Bar"
+  },
+  {
+    "location_name": "Plume Wine Bar",
+    "lat": 51.51258,
+    "lon": -0.12013,
     "category": "Drinks",
     "description": "Bar"
   },
