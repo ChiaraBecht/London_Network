@@ -28,8 +28,7 @@ category_colors = {
     'Food': 'red',
     'Drinks': 'green',
     'Cafe': 'yellow',
-    'Hotel': 'black'#'purple',
-    # Add more if needed
+    'Hotel': 'black'
 }
 
 # Filter data
