@@ -31,6 +31,8 @@ category_colors = {
     'Hotel': 'black'
 }
 
+
+
 # Filter data
 filtered_markers = [
     p for p in pois_map_markers
@@ -46,11 +48,12 @@ m = folium.Map(location=[51.501016, -0.123107], tiles='OpenStreetMap', zoom_star
 
 # Add markers
 for p in filtered_markers:
+    color = category_colors.get(p['category'], 'gray')
     tooltip_text = f"{p['location_name']}<br><i>{p['description']}</i>"
     folium.CircleMarker(
         location=[p['lat'], p['lon']],
         radius=6,
-        color=category_colors[p['category']],
+        color=color,
         fill=True,
         fill_color=category_colors[p['category']],
         fill_opacity=0.9,
