@@ -43,8 +43,8 @@
   },
   {
     "location_name": "Tower Bridge, London",
-    "lat": 51.5055158,
-    "lon": -0.0753665,
+    "lat": 51.5055166,
+    "lon": -0.0753662,
     "category": "Sight",
     "description": "Bridge"
   },
@@ -176,8 +176,8 @@
   },
   {
     "location_name": "Fleet St, London",
-    "lat": 51.5141437,
-    "lon": -0.1092872,
+    "lat": 51.51411,
+    "lon": -0.1095253,
     "category": "Sight",
     "description": "Market or Street"
   },
@@ -469,13 +469,6 @@
     "description": "Rubinrot Location"
   },
   {
-    "location_name": "Royal Courts of Justice, London",
-    "lat": 51.5142194,
-    "lon": -0.1132167,
-    "category": "Sight",
-    "description": "Rubinrot Location"
-  },
-  {
     "location_name": "Society of middle Temple",
     "lat": 51.512088,
     "lon": -0.1103,
@@ -504,14 +497,14 @@
     "description": "Invisible Library Location"
   },
   {
-    "location_name": "Royal Courts of Justice, London",
+    "location_name": "Two Temple Place, London",
     "lat": 51.4875993,
     "lon": -0.1227623,
     "category": "Food",
     "description": "Food Hall"
   },
   {
-    "location_name": "Royal Courts of Justice, London",
+    "location_name": "Two Temple Place, London",
     "lat": 51.5130789,
     "lon": -0.1532466,
     "category": "Food",
