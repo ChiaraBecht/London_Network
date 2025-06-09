@@ -25,7 +25,9 @@ selected_descriptions = st.sidebar.multiselect("Select by Description", descript
 category_colors = {
     'Sight': 'blue',
     'Shopping': 'purple',
-    #'food': 'green',
+    'Food': 'red',
+    'Drinks': 'green',
+    'Cafe': 'yellow',
     'Hotel': 'black'#'purple',
     # Add more if needed
 }
