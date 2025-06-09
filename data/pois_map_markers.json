@@ -43,8 +43,8 @@
   },
   {
     "location_name": "Tower Bridge, London",
-    "lat": 51.5055166,
-    "lon": -0.0753662,
+    "lat": 51.5055158,
+    "lon": -0.0753665,
     "category": "Sight",
     "description": "Bridge"
   },
@@ -176,8 +176,8 @@
   },
   {
     "location_name": "Fleet St, London",
-    "lat": 51.51411,
-    "lon": -0.1095253,
+    "lat": 51.5141437,
+    "lon": -0.1092872,
     "category": "Sight",
     "description": "Market or Street"
   },
@@ -773,7 +773,7 @@
     "location_name": "Brick Lane Bagel Co",
     "lat": 51.50619,
     "lon": -0.02015,
-    "category": "Fast Food",
+    "category": "Food",
     "description": "Fast Food"
   },
   {
