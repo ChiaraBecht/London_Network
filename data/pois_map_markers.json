@@ -43,8 +43,8 @@
   },
   {
     "location_name": "Tower Bridge, London",
-    "lat": 51.5055158,
-    "lon": -0.0753665,
+    "lat": 51.5055166,
+    "lon": -0.0753662,
     "category": "Sight",
     "description": "Bridge"
   },
@@ -176,8 +176,8 @@
   },
   {
     "location_name": "Fleet St, London",
-    "lat": 51.5136636,
-    "lon": -0.1119751,
+    "lat": 51.51411,
+    "lon": -0.1095253,
     "category": "Sight",
     "description": "Market or Street"
   },
@@ -239,8 +239,8 @@
   },
   {
     "location_name": "Oxford St, London",
-    "lat": 51.5151531,
-    "lon": -0.1431002,
+    "lat": 51.5138053,
+    "lon": -0.1548743,
     "category": "Shopping",
     "description": "Shopping"
   },
@@ -745,6 +745,20 @@
     "location_name": "PaStation",
     "lat": 51.52092,
     "lon": -0.1348,
+    "category": "Food",
+    "description": "Restaurant"
+  },
+  {
+    "location_name": "Rasa indian recomm.",
+    "lat": 51.56585,
+    "lon": -0.07654,
+    "category": "Food",
+    "description": "Restaurant"
+  },
+  {
+    "location_name": "Chettinad indian recomm. spicy",
+    "lat": 51.51931,
+    "lon": -0.13294,
     "category": "Food",
     "description": "Restaurant"
   },
