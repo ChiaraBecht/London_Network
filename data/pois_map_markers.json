@@ -43,8 +43,8 @@
   },
   {
     "location_name": "Tower Bridge, London",
-    "lat": 51.5055166,
-    "lon": -0.0753662,
+    "lat": 51.5055158,
+    "lon": -0.0753665,
     "category": "Sight",
     "description": "Bridge"
   },
@@ -60,49 +60,49 @@
     "lat": 51.5007042,
     "lon": -0.1245721,
     "category": "Sight",
-    "description": "Monument, plotical building"
+    "description": "Monument, political building"
   },
   {
     "location_name": "Palace of Westminster",
     "lat": 51.4993886,
     "lon": -0.124481,
     "category": "Sight",
-    "description": "Monument, plotical building"
+    "description": "Monument, political building"
   },
   {
     "location_name": "Buckingham Palace, London",
     "lat": 51.5008349,
     "lon": -0.1430045,
     "category": "Sight",
-    "description": "Monument, plotical building"
+    "description": "Monument, political building"
   },
   {
     "location_name": "Tower of London, London",
     "lat": 51.508217,
     "lon": -0.0761879,
     "category": "Sight",
-    "description": "Monument, plotical building"
+    "description": "Monument, political building"
   },
   {
     "location_name": "Piccadilly Circus, London",
     "lat": 51.5097922,
     "lon": -0.1344288,
     "category": "Sight",
-    "description": "Monument, plotical building"
+    "description": "Monument, political building"
   },
   {
     "location_name": "Chinatown Gate, London",
     "lat": 51.5109933,
     "lon": -0.1318175,
     "category": "Sight",
-    "description": "Monument, plotical building"
+    "description": "Monument, political building"
   },
   {
     "location_name": "Trafalgar Square, London",
     "lat": 51.5084502,
     "lon": -0.1284499,
     "category": "Sight",
-    "description": "Monument, plotical building"
+    "description": "Monument, political building"
   },
   {
     "location_name": "Royal Court of Justice",
@@ -176,8 +176,8 @@
   },
   {
     "location_name": "Fleet St, London",
-    "lat": 51.51411,
-    "lon": -0.1095253,
+    "lat": 51.5136636,
+    "lon": -0.1119751,
     "category": "Sight",
     "description": "Market or Street"
   },
@@ -239,8 +239,8 @@
   },
   {
     "location_name": "Oxford St, London",
-    "lat": 51.5138053,
-    "lon": -0.1548743,
+    "lat": 51.5151531,
+    "lon": -0.1431002,
     "category": "Shopping",
     "description": "Shopping"
   },
