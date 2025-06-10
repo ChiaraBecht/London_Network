@@ -43,8 +43,8 @@
   },
   {
     "location_name": "Tower Bridge, London",
-    "lat": 51.5055158,
-    "lon": -0.0753665,
+    "lat": 51.5055166,
+    "lon": -0.0753662,
     "category": "Sight",
     "description": "Bridge"
   },
@@ -140,13 +140,6 @@
     "description": "Market or Street"
   },
   {
-    "location_name": "Royal Exchange, London",
-    "lat": 51.4084187,
-    "lon": -0.3028117,
-    "category": "Sight",
-    "description": "Market or Street"
-  },
-  {
     "location_name": "Covent Garden Market, London",
     "lat": 51.5119791,
     "lon": -0.1227413,
@@ -176,8 +169,8 @@
   },
   {
     "location_name": "Fleet St, London",
-    "lat": 51.5136636,
-    "lon": -0.1119751,
+    "lat": 51.51411,
+    "lon": -0.1095253,
     "category": "Sight",
     "description": "Market or Street"
   },
@@ -185,6 +178,13 @@
     "location_name": "Borough Market",
     "lat": 51.50589,
     "lon": -0.09046,
+    "category": "Sight",
+    "description": "Market or Street"
+  },
+  {
+    "location_name": "Royal Exchange",
+    "lat": 51.51424,
+    "lon": -0.08671,
     "category": "Sight",
     "description": "Market or Street"
   },
@@ -224,13 +224,6 @@
     "description": "Theater or Cinema"
   },
   {
-    "location_name": "West End, London",
-    "lat": 51.5902914,
-    "lon": -0.3894287,
-    "category": "Sight",
-    "description": "Theater or Cinema"
-  },
-  {
     "location_name": "Harrods, London",
     "lat": 51.4992104,
     "lon": -0.1629893,
@@ -239,8 +232,8 @@
   },
   {
     "location_name": "Oxford St, London",
-    "lat": 51.5151531,
-    "lon": -0.1431002,
+    "lat": 51.5138053,
+    "lon": -0.1548743,
     "category": "Shopping",
     "description": "Shopping"
   },
@@ -441,13 +434,6 @@
     "description": "Rubinrot Location"
   },
   {
-    "location_name": "Fountain Court, London",
-    "lat": 51.4031537,
-    "lon": -0.3369452,
-    "category": "Sight",
-    "description": "Rubinrot Location"
-  },
-  {
     "location_name": "Temple Church, London",
     "lat": 51.5132574,
     "lon": -0.1102238,
@@ -486,6 +472,13 @@
     "location_name": "Inner Temple Library",
     "lat": 51.51299,
     "lon": -0.10985,
+    "category": "Sight",
+    "description": "Rubinrot Location"
+  },
+  {
+    "location_name": "Fountain Court",
+    "lat": 51.51324,
+    "lon": -0.1118,
     "category": "Sight",
     "description": "Rubinrot Location"
   },
