@@ -43,8 +43,8 @@
   },
   {
     "location_name": "Tower Bridge, London",
-    "lat": 51.5055166,
-    "lon": -0.0753662,
+    "lat": 51.5055158,
+    "lon": -0.0753665,
     "category": "Sight",
     "description": "Bridge"
   },
@@ -169,8 +169,8 @@
   },
   {
     "location_name": "Fleet St, London",
-    "lat": 51.51411,
-    "lon": -0.1095253,
+    "lat": 51.5141437,
+    "lon": -0.1092872,
     "category": "Sight",
     "description": "Market or Street"
   },
@@ -276,6 +276,20 @@
     "location_name": "Camden Passage",
     "lat": 51.53482,
     "lon": -0.10398,
+    "category": "Shopping",
+    "description": "Shopping"
+  },
+  {
+    "location_name": "BookBar Islington",
+    "lat": 51.56595,
+    "lon": -0.09912,
+    "category": "Shopping",
+    "description": "Shopping"
+  },
+  {
+    "location_name": "BookBar Chelsea",
+    "lat": 51.4912,
+    "lon": -0.16813,
     "category": "Shopping",
     "description": "Shopping"
   },
