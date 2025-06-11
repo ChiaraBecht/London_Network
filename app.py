@@ -44,6 +44,9 @@ filtered_markers = [
 st.title("London Trip Planner")
 st.markdown("Filter by category and description and hover to explore the places.")
 
+# Checkbox to show neighborhoods
+show_area = st.checkbox("Show Areas")
+
 m = folium.Map(location=[51.501016, -0.123107], tiles='OpenStreetMap', zoom_start=13, control_scale=True)
 
 # Add markers
@@ -60,5 +63,18 @@ for p in filtered_markers:
         tooltip=tooltip_text,
     ).add_to(m)
 
+# Conditionally add GeoJSON overlay
+if show_area:
+    with open("data/london_areas.geojson", "r") as f:
+        geojson_data = json.load(f)
+
+    folium.GeoJson(
+        geojson_data,
+        name="Areas",
+        tooltip=folium.GeoJsonTooltip(fields=["name"]),
+        style_function=lambda feature: {"fillColor": "228B22", "color": "black", "weight": 2, "fillOpacity": 0.2}
+    ).add_to(m)
+
 # Display map in a bigger frame
-st_data = st_folium(m, width=900, height=600)
+#st_data = 
+st_folium(m, width=900, height=600)
