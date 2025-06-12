@@ -169,8 +169,8 @@
   },
   {
     "location_name": "Fleet St, London",
-    "lat": 51.5141437,
-    "lon": -0.1092872,
+    "lat": 51.5136636,
+    "lon": -0.1119751,
     "category": "Sight",
     "description": "Market or Street"
   },
@@ -232,8 +232,8 @@
   },
   {
     "location_name": "Oxford St, London",
-    "lat": 51.5138053,
-    "lon": -0.1548743,
+    "lat": 51.5151531,
+    "lon": -0.1431002,
     "category": "Shopping",
     "description": "Shopping"
   },
@@ -502,6 +502,20 @@
     "lon": -0.1276918,
     "category": "Sight",
     "description": "Invisible Library Location"
+  },
+  {
+    "location_name": "Horsleydown steps Tower Bridge",
+    "lat": 51.50423,
+    "lon": -0.07562,
+    "category": "Sight",
+    "description": "Photospot"
+  },
+  {
+    "location_name": "Bridge Arch Photo Westminster",
+    "lat": 51.50068,
+    "lon": -0.1199,
+    "category": "Sight",
+    "description": "Photospot"
   },
   {
     "location_name": "food hall vauxhall",
