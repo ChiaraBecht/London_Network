@@ -82,7 +82,7 @@ for p in filtered_markers:
 st_folium(m, width=900, height=600)
 
 
-"""# adding schedule
+# adding schedule
 daily_schedule = {
     "Monday June 23rd": [("10:30", "Abflug Memmingen"), ("11:30", "Ankunft London Stansted"), ("15:00 - 21:00", "Check-In Hotel")],
     "Tuesday June 24th": [("16:40", "Arrival at Warner Bros. Studio Tour"), ("17:00", "Start Warner Bros. Studio Tour")],
@@ -99,4 +99,4 @@ for tab, day in zip(tabs, daily_schedule):
     with tab:
         st.subheader(f"Program for {day}")
         df = pd.DataFrame(daily_schedule[day], columns=["Time", "Activity"])
-        st.table(df)"""
+        st.table(df)
