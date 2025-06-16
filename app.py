@@ -87,8 +87,8 @@ daily_schedule = {
     "Monday June 23rd": [("10:30", "Abflug Memmingen"), ("11:30", "Ankunft London Stansted"), ("15:00 - 21:00", "Check-In Hotel")],
     "Tuesday June 24th": [("16:40", "Arrival at Warner Bros. Studio Tour"), ("17:00", "Start Warner Bros. Studio Tour")],
     "Wednesday June 25th": [("11:00", "Horizon 22")],
-    "Thursday June 26th": [("", ""), ("20:00", "Six Musical Vaudeville Theatre")],
-    "Friday June 27th": [(""), ("")],
+    "Thursday June 26th": [("time", "sth"), ("20:00", "Six Musical Vaudeville Theatre")],
+    "Friday June 27th": [("time"), ("sth")],
     "Saturday June 28th": [("09:00 - 11:00", "Check-out"), ("16:20", "Rückflug London Stanted"), ("19:05", "Ankunft Memmingen")]
 }
 
