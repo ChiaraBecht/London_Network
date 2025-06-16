@@ -3,6 +3,9 @@ import folium
 from streamlit_folium import st_folium
 import json
 import pandas as pd
+import os
+os.environ["STREAMLIT_WATCH_USE_POLLING"] = "true"
+os.environ["STREAMLIT_WATCH_DISABLE"] = "true"
 
 # Load POIs
 with open('data/pois_map_markers.json', 'r') as f:
