@@ -99,4 +99,5 @@ for tab, day in zip(tabs, daily_schedule):
     with tab:
         st.subheader(f"Program for {day}")
         df = pd.DataFrame(daily_schedule[day], columns=["Time", "Activity"])
-        st.table(df)
+        #st.table(df)
+        st.write(df)
