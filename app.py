@@ -2,6 +2,7 @@ import streamlit as st
 import folium
 from streamlit_folium import st_folium
 import json
+import pandas as pd
 
 # Load POIs
 with open('data/pois_map_markers.json', 'r') as f:
@@ -79,3 +80,23 @@ for p in filtered_markers:
 # Display map in a bigger frame
 #st_data = 
 st_folium(m, width=900, height=600)
+
+
+# adding schedule
+daily_schedule = {
+    "Monday June 23rd": [("10:30", "Abflug Memmingen"), ("11:30", "Ankunft London Stansted")],
+    "Tuesday June 24th": [("16:40", "Arrival at Warner Bros. Studio Tour"), ("17:00", "Start Warner Bros. Studio Tour")],
+    "Wednesday June 25th": [("11:00", "Horizon 22")],
+    "Thursday June 26th": [("", ""), ("20:00", "Six Musical Vaudeville Theatre")],
+    "Friday June 27th": [(), ()],
+    "Saturday June 28th": [("09:00", "??Check-out"), ("16:20", "Rückflug London Stanted"), ("19:05", "Ankunft Memmingen")]
+}
+
+# Tabs for each day
+tabs = st.tabs(["Monday June 23rd", "Tuesday June 24th", "Wednesday June 25th", "Thursday June 26th", "Friday June 27th", "Saturday June 28th"])
+
+for tab, day in zip(tabs, daily_schedule):
+    with tab:
+        st.subheader(f"Program for {day}")
+        df = pd.DataFrame(daily_schedule[day], columns=["Time", "Activity"])
+        st.table(df)
