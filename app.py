@@ -83,7 +83,11 @@ for p in filtered_markers:
 with open("data/streets_to_visit.geojson", "r") as f:
     polygon_view_points = json.load(f)
 
-folium.GeoJson(polygon_view_points, name="Sight").add_to(m)
+folium.GeoJson(
+    polygon_view_points, 
+    name="Sight",
+    tooltip=folium.GeoJsonTooltip(fields=["name"])
+    ).add_to(m)
 
 # Display map in a bigger frame
 #st_data = 
