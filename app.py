@@ -80,14 +80,35 @@ for p in filtered_markers:
         tooltip=tooltip_text,
     ).add_to(m)
 
+# Streets / Areas
 with open("data/streets_to_visit.geojson", "r") as f:
     polygon_view_points = json.load(f)
 
-folium.GeoJson(
-    polygon_view_points, 
-    name="Sight",
-    tooltip=folium.GeoJsonTooltip(fields=["name"])
-    ).add_to(m)
+# Extract names of the polygons
+polygon_features = polygon_view_points["features"]
+polygon_names = [feat["properties"]["name"] for feat in polygon_features]
+
+# Add multiselect to sidebar
+selected_polygons = st.sidebar.multiselect(
+    "Choose sights to show (polygons)",
+    options=polygon_names,
+    default=polygon_names  # or a subset if you want only some shown by default
+)
+
+# Add selected polygons
+for feat in polygon_features:
+    name = feat["properties"]["name"]
+    if name in selected_polygons:
+        folium.GeoJson(
+            feat,
+            tooltip=folium.GeoJsonTooltip(fields=["name"]),
+            style_function=lambda feature: {
+                "fillColor": "blue",
+                "color": "black",
+                "weight": 2,
+                "fillOpacity": 0.3,
+            }
+        ).add_to(m)
 
 # Display map in a bigger frame
 #st_data = 
