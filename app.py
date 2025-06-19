@@ -108,7 +108,7 @@ for mode in modes:
                             fill=True,
                             fill_color="white",
                             fill_opacity=1.0,
-                            tooltip=stop.get("name", stop.get("id", ""))
+                            #tooltip=stop.get("name", stop.get("id", ""))
                         ).add_to(fg)
 
         fg.add_to(m)
