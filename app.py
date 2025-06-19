@@ -3,6 +3,7 @@ import folium
 from streamlit_folium import st_folium
 import json
 import pandas as pd
+from geopy.distance import geodesic
 import os
 os.environ["STREAMLIT_WATCH_USE_POLLING"] = "true"
 os.environ["STREAMLIT_WATCH_DISABLE"] = "true"
@@ -65,7 +66,7 @@ if show_area:
         style_function=lambda feature: {"fillColor": "228B22", "color": "black", "weight": 2, "fillOpacity": 0.2}
     ).add_to(m)
 
-# add Public Transportation
+# Public Transportation
 with open("data/tfl/public_transportation.json", "r") as f:
     transport_data = json.load(f)
 
@@ -73,10 +74,40 @@ modes = ['bus', 'tube'] #sorted(set(item["mode"] for item in transport_data))
 
 mode_selections = {mode: st.checkbox(f"Show {mode.title()}", value=True) for mode in modes}
 
+# filter the transportation to show only necessary stops and lines
+# collect coordinates of selected POIs
+poi_coords = [(p["lat"], p["lon"]) for p in filtered_markers]
+
+# find nearby stops for each POI
+def find_nearby_stops(poi_coord, stops, max_dist=0.4):  # distance in km
+    nearby = []
+    for stop in stops:
+        stop_coord = (stop["lat"], stop["lon"])
+        if geodesic(poi_coord, stop_coord).km <= max_dist:
+            nearby.append(stop)
+    return nearby
+
+# filter the stops
+all_stops = [stop for item in transport_data if item["mode"] in mode_selections for stop in item.get("stops", [])]
+
+# Gather stops near your POIs
+relevant_stops = set()
+for poi in poi_coords:
+    nearby = find_nearby_stops(poi, all_stops)
+    relevant_stops.update((s["lat"], s["lon"]) for s in nearby)
+
+# filter transport lines that uses my relvant stops
+relevant_lines = []
+for line in transport_data:
+    line_stops = [(s["lat"], s["lon"]) for s in line.get("stops", [])]
+    if any(stop in relevant_stops for stop in line_stops):
+        relevant_lines.append(line)
+
+
 for mode in modes:
     if mode_selections[mode]:
         fg = folium.FeatureGroup(name=mode.title())
-        for line in transport_data:
+        for line in relevant_lines:
             if line["mode"] == mode:
                 # Flip (lon, lat) to (lat, lon)
                 fixed_shape = [[lat, lon] for lon, lat in line["shape"][0]]
@@ -86,6 +117,17 @@ for mode in modes:
                     weight=3,
                     opacity=0.7,
                     tooltip=line["lineName"]
+                ).add_to(fg)
+            # Add stops as small circle markers
+            for stop in line.get("stops", []):
+                folium.CircleMarker(
+                    location=[stop["lat"], stop["lon"]],
+                    radius=2,
+                    color="black",
+                    fill=True,
+                    fill_color="white",
+                    fill_opacity=1.0,
+                    tooltip=stop.get("name", stop["id"])
                 ).add_to(fg)
         fg.add_to(m)
 
