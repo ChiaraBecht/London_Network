@@ -83,7 +83,7 @@ for mode in modes:
                     color="blue" if mode != "bus" else "red",
                     weight=3,
                     opacity=0.7,
-                    tooltip=line["lineName"]
+                    #tooltip=line["lineName"]
                 ).add_to(fg)
         fg.add_to(m)
 
