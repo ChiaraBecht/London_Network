@@ -43,8 +43,8 @@
   },
   {
     "location_name": "Tower Bridge, London",
-    "lat": 51.5055158,
-    "lon": -0.0753665,
+    "lat": 51.5055166,
+    "lon": -0.0753662,
     "category": "Sight",
     "description": "Bridge"
   },
@@ -169,8 +169,8 @@
   },
   {
     "location_name": "Fleet St, London",
-    "lat": 51.5136636,
-    "lon": -0.1119751,
+    "lat": 51.51411,
+    "lon": -0.1095253,
     "category": "Sight",
     "description": "Market or Street"
   },
@@ -232,8 +232,8 @@
   },
   {
     "location_name": "Oxford St, London",
-    "lat": 51.5151531,
-    "lon": -0.1431002,
+    "lat": 51.5150747,
+    "lon": -0.1436903,
     "category": "Shopping",
     "description": "Shopping"
   },
@@ -413,9 +413,128 @@
     "description": "Harry Potter Location"
   },
   {
-    "location_name": "House of MinaLima, London",
-    "lat": 51.5133738,
-    "lon": -0.1302753,
+    "location_name": "Platform 9 3/4, London",
+    "lat": 51.5321868,
+    "lon": -0.1239137,
+    "category": "Sight",
+    "description": "Harry Potter Location"
+  },
+  {
+    "location_name": "Leadenhall Market, London",
+    "lat": 51.5127276,
+    "lon": -0.0833953,
+    "category": "Sight",
+    "description": "Harry Potter Location"
+  },
+  {
+    "location_name": "Australian High Commission, London",
+    "lat": 51.5128785,
+    "lon": -0.1155906,
+    "category": "Sight",
+    "description": "Harry Potter Location"
+  },
+  {
+    "location_name": "Platform 9 3/4, London",
+    "lat": 51.5321868,
+    "lon": -0.1239137,
+    "category": "Sight",
+    "description": "Harry Potter Location"
+  },
+  {
+    "location_name": "Goodwin's Court",
+    "lat": 51.51112,
+    "lon": -0.12626,
+    "category": "Sight",
+    "description": "Harry Potter Location"
+  },
+  {
+    "location_name": "Platform 9 3/4, London",
+    "lat": 51.5321868,
+    "lon": -0.1239137,
+    "category": "Sight",
+    "description": "Harry Potter Location"
+  },
+  {
+    "location_name": "Leadenhall Market, London",
+    "lat": 51.5127276,
+    "lon": -0.0833953,
+    "category": "Sight",
+    "description": "Harry Potter Location"
+  },
+  {
+    "location_name": "Goodwin's Court",
+    "lat": 51.51112,
+    "lon": -0.12626,
+    "category": "Sight",
+    "description": "Harry Potter Location"
+  },
+  {
+    "location_name": "Platform 9 3/4, London",
+    "lat": 51.5321868,
+    "lon": -0.1239137,
+    "category": "Sight",
+    "description": "Harry Potter Location"
+  },
+  {
+    "location_name": "Leadenhall Market, London",
+    "lat": 51.5127276,
+    "lon": -0.0833953,
+    "category": "Sight",
+    "description": "Harry Potter Location"
+  },
+  {
+    "location_name": "Australian High Commission, London",
+    "lat": 51.5128785,
+    "lon": -0.1155906,
+    "category": "Sight",
+    "description": "Harry Potter Location"
+  },
+  {
+    "location_name": "Goodwin's Court",
+    "lat": 51.51112,
+    "lon": -0.12626,
+    "category": "Sight",
+    "description": "Harry Potter Location"
+  },
+  {
+    "location_name": "Platform 9 3/4, London",
+    "lat": 51.5321868,
+    "lon": -0.1239137,
+    "category": "Sight",
+    "description": "Harry Potter Location"
+  },
+  {
+    "location_name": "Leadenhall Market, London",
+    "lat": 51.5127276,
+    "lon": -0.0833953,
+    "category": "Sight",
+    "description": "Harry Potter Location"
+  },
+  {
+    "location_name": "Australian High Commission, London",
+    "lat": 51.5128785,
+    "lon": -0.1155906,
+    "category": "Sight",
+    "description": "Harry Potter Location"
+  },
+  {
+    "location_name": "Platform 9 3/4, London",
+    "lat": 51.5321868,
+    "lon": -0.1239137,
+    "category": "Sight",
+    "description": "Harry Potter Location"
+  },
+  {
+    "location_name": "Leadenhall Market, London",
+    "lat": 51.5127276,
+    "lon": -0.0833953,
+    "category": "Sight",
+    "description": "Harry Potter Location"
+  },
+  {
+    "location_name": "Australian High Commission, London",
+    "lat": 51.5128785,
+    "lon": -0.1155906,
     "category": "Sight",
     "description": "Harry Potter Location"
   },
@@ -430,6 +549,48 @@
     "location_name": "Goodwin's Court",
     "lat": 51.51112,
     "lon": -0.12626,
+    "category": "Sight",
+    "description": "Harry Potter Location"
+  },
+  {
+    "location_name": "Platform 9 3/4, London",
+    "lat": 51.5321868,
+    "lon": -0.1239137,
+    "category": "Sight",
+    "description": "Harry Potter Location"
+  },
+  {
+    "location_name": "Leadenhall Market, London",
+    "lat": 51.5127276,
+    "lon": -0.0833953,
+    "category": "Sight",
+    "description": "Harry Potter Location"
+  },
+  {
+    "location_name": "Australian High Commission, London",
+    "lat": 51.5128785,
+    "lon": -0.1155906,
+    "category": "Sight",
+    "description": "Harry Potter Location"
+  },
+  {
+    "location_name": "Warner Bros. Studio Tour London",
+    "lat": 51.6909507,
+    "lon": -0.4183162,
+    "category": "Sight",
+    "description": "Harry Potter Location"
+  },
+  {
+    "location_name": "Goodwin's Court",
+    "lat": 51.51112,
+    "lon": -0.12626,
+    "category": "Sight",
+    "description": "Harry Potter Location"
+  },
+  {
+    "location_name": "House of MinaLima",
+    "lat": 51.51474,
+    "lon": -0.13498,
     "category": "Sight",
     "description": "Harry Potter Location"
   },
