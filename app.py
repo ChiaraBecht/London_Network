@@ -73,7 +73,7 @@ modes = sorted(set(item["mode"] for item in transport_data))
 
 mode_selections = {mode: st.checkbox(f"Show {mode.title()}", value=True) for mode in modes}
 
-for mode in modes:
+"""for mode in modes:
     if mode_selections[mode]:
         fg = folium.FeatureGroup(name=mode.title())
         for line in transport_data:
@@ -87,7 +87,7 @@ for mode in modes:
                 ).add_to(fg)
         fg.add_to(m)
 
-folium.LayerControl(collapsed=False).add_to(m)
+folium.LayerControl(collapsed=False).add_to(m)"""
 
 # Add markers
 for p in filtered_markers:
