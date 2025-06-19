@@ -78,11 +78,10 @@ for mode in modes:
         fg = folium.FeatureGroup(name=mode.title())
         for line in transport_data:
             if line["mode"] == mode:
-                # Flip (lon, lat) → (lat, lon)
-                shape = [(lat, lon) for lon, lat in line["shape"]]
-
+                # Flip (lon, lat) to (lat, lon)
+                fixed_shape = [[lat, lon] for lon, lat in line["shape"][0]]
                 folium.PolyLine(
-                    shape,
+                    fixed_shape,
                     color="blue" if mode != "bus" else "red",
                     weight=3,
                     opacity=0.7,
