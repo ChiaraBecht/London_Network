@@ -67,70 +67,54 @@ if show_area:
     ).add_to(m)
 
 # Public Transportation
-with open("data/tfl/public_transportation.json", "r") as f:
-    transport_data = json.load(f)
+with open("data/tfl/relevant_lines.json", "r") as f:
+    relevant_lines = json.load(f)
 
-modes = ['bus', 'tube'] #sorted(set(item["mode"] for item in transport_data))
+with open("data/tfl/relevant_stops.json", "r") as f:
+    relevant_stops = json.load(f)
+
+modes = ['bus', 'tube'] 
 
 mode_selections = {mode: st.checkbox(f"Show {mode.title()}", value=True) for mode in modes}
 
-# filter the transportation to show only necessary stops and lines
-# collect coordinates of selected POIs
-poi_coords = [(p["lat"], p["lon"]) for p in filtered_markers]
-
-# find nearby stops for each POI
-def find_nearby_stops(poi_coord, stops, max_dist=0.4):  # distance in km
-    nearby = []
-    for stop in stops:
-        stop_coord = (stop["lat"], stop["lon"])
-        if geodesic(poi_coord, stop_coord).km <= max_dist:
-            nearby.append(stop)
-    return nearby
-
-# filter the stops
-all_stops = [stop for item in transport_data if item["mode"] in mode_selections for stop in item.get("stops", [])]
-
-# Gather stops near your POIs
-relevant_stops = set()
-for poi in poi_coords:
-    nearby = find_nearby_stops(poi, all_stops)
-    relevant_stops.update((s["lat"], s["lon"]) for s in nearby)
-
-# filter transport lines that uses my relvant stops
-relevant_lines = []
-for line in transport_data:
-    line_stops = [(s["lat"], s["lon"]) for s in line.get("stops", [])]
-    if any(stop in relevant_stops for stop in line_stops):
-        relevant_lines.append(line)
-
+# Your map, assuming it's created like this:
+# m = folium.Map(location=[central_lat, central_lon], zoom_start=12)
 
 for mode in modes:
-    if mode_selections[mode]:
+    if mode_selections.get(mode, False):
         fg = folium.FeatureGroup(name=mode.title())
+
         for line in relevant_lines:
             if line["mode"] == mode:
-                # Flip (lon, lat) to (lat, lon)
-                fixed_shape = [[lat, lon] for lon, lat in line["shape"][0]]
-                folium.PolyLine(
-                    fixed_shape,
-                    color="blue" if mode != "bus" else "red",
-                    weight=3,
-                    opacity=0.7,
-                    tooltip=line["lineName"]
-                ).add_to(fg)
-            # Add stops as small circle markers
-            for stop in line.get("stops", []):
-                folium.CircleMarker(
-                    location=[stop["lat"], stop["lon"]],
-                    radius=2,
-                    color="black",
-                    fill=True,
-                    fill_color="white",
-                    fill_opacity=1.0,
-                    tooltip=stop.get("name", stop["id"])
-                ).add_to(fg)
+                # Plot the line shape
+                if line.get("shape"):
+                    shape_coords = [[lat, lon] for lon, lat in line["shape"][0]]
+                    folium.PolyLine(
+                        shape_coords,
+                        color="blue" if mode != "bus" else "red",
+                        weight=3,
+                        opacity=0.7,
+                        tooltip=line.get("lineName", line.get("id", ""))
+                    ).add_to(fg)
+
+                # Only add stops that are in relevant_stops
+                for stop in line.get("stops", []):
+                    coord = (stop["lat"], stop["lon"])
+                    if coord in relevant_stops:
+                        folium.CircleMarker(
+                            location=[stop["lat"], stop["lon"]],
+                            radius=3,
+                            color="black",
+                            fill=True,
+                            fill_color="white",
+                            fill_opacity=1.0,
+                            tooltip=stop.get("name", stop.get("id", ""))
+                        ).add_to(fg)
+
         fg.add_to(m)
 
+# Add a layer control
+folium.LayerControl(collapsed=False).add_to(m)
 
 # Add markers
 for p in filtered_markers:
