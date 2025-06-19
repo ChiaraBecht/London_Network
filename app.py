@@ -114,7 +114,7 @@ mode_selections = {mode: st.checkbox(f"Show {mode.title()}", value=True) for mod
         fg.add_to(m)"""
 
 # Add a layer control
-folium.LayerControl(collapsed=False).add_to(m)
+#folium.LayerControl(collapsed=False).add_to(m)
 
 # Add markers
 for p in filtered_markers:
