@@ -65,6 +65,29 @@ if show_area:
         style_function=lambda feature: {"fillColor": "228B22", "color": "black", "weight": 2, "fillOpacity": 0.2}
     ).add_to(m)
 
+# add Public Transportation
+with open("data/tfl/public_transportation.json", "r") as f:
+    transport_data = json.load(f)
+
+modes = sorted(set(item["mode"] for item in transport_data))
+
+mode_selections = {mode: st.checkbox(f"Show {mode.title()}", value=True) for mode in modes}
+
+for mode in modes:
+    if mode_selections[mode]:
+        fg = folium.FeatureGroup(name=mode.title())
+        for line in transport_data:
+            if line["mode"] == mode:
+                folium.PolyLine(
+                    line["shape"],
+                    color="blue" if mode != "bus" else "red",
+                    weight=3,
+                    opacity=0.7,
+                    tooltip=line["name"]
+                ).add_to(fg)
+        fg.add_to(m)
+
+folium.LayerControl(collapsed=False).add_to(m)
 
 # Add markers
 for p in filtered_markers:
