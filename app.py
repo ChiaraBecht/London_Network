@@ -80,7 +80,7 @@ mode_selections = {mode: st.checkbox(f"Show {mode.title()}", value=True) for mod
 # Your map, assuming it's created like this:
 # m = folium.Map(location=[central_lat, central_lon], zoom_start=12)
 
-for mode in modes:
+"""for mode in modes:
     if mode_selections.get(mode, False):
         fg = folium.FeatureGroup(name=mode.title())
 
@@ -111,7 +111,7 @@ for mode in modes:
                             tooltip=stop.get("name", stop.get("id", ""))
                         ).add_to(fg)
 
-        fg.add_to(m)
+        fg.add_to(m)"""
 
 # Add a layer control
 folium.LayerControl(collapsed=False).add_to(m)
