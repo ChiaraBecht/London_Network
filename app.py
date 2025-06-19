@@ -73,6 +73,22 @@ modes = sorted(set(item["mode"] for item in transport_data))
 
 mode_selections = {mode: st.checkbox(f"Show {mode.title()}", value=True) for mode in modes}
 
+for mode in modes:
+    if mode_selections[mode]:
+        fg = folium.FeatureGroup(name=mode.title())
+        for line in transport_data:
+            if line["mode"] == mode:
+                # Flip (lon, lat) → (lat, lon)
+                shape = [(lat, lon) for lon, lat in line["shape"]]
+
+                folium.PolyLine(
+                    shape,
+                    color="blue" if mode != "bus" else "red",
+                    weight=3,
+                    opacity=0.7,
+                ).add_to(fg)
+        fg.add_to(m)
+
 """for mode in modes:
     if mode_selections[mode]:
         fg = folium.FeatureGroup(name=mode.title())
