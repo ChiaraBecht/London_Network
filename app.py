@@ -186,7 +186,7 @@ lines_df['stops'] = lines_df['stops'].apply(ast.literal_eval)
 m2 = folium.Map(location=[locations_gdf.geometry.y.mean(), locations_gdf.geometry.x.mean()], zoom_start=12)
 
 # Add stops
-for _, row in stops_df.iterrows():
+"""for _, row in stops_df.iterrows():
     folium.CircleMarker(
         location=[row['lat'], row['lon']],
         radius=3,
@@ -194,10 +194,10 @@ for _, row in stops_df.iterrows():
         fill=True,
         fill_opacity=0.6,
         tooltip=row['stop_name']
-    ).add_to(m2)
+    ).add_to(m2)"""
 
 # Add lines as connections (optional — you can also skip this if only plotting stops)
-for _, row in lines_df.iterrows():
+"""for _, row in lines_df.iterrows():
     stop_coords = []
     for stop_id in row['stops']:
         stop = stops_df[stops_df['stop_id'] == stop_id].iloc[0]
@@ -207,7 +207,7 @@ for _, row in lines_df.iterrows():
         color='red' if row['mode'] == 'tube' else 'green',
         weight=2,
         tooltip=row['name']
-    ).add_to(m2)
+    ).add_to(m2)"""
 
 st.markdown("###  Full Transport Network View")
 st_folium(m2, width=900, height=600)
