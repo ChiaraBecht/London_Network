@@ -1,8 +1,10 @@
 import streamlit as st
 import folium
 from streamlit_folium import st_folium
+from streamlit_folium import folium_static
 import json
 import pandas as pd
+import networkx as nx
 from geopy.distance import geodesic
 import os
 os.environ["STREAMLIT_WATCH_USE_POLLING"] = "true"
@@ -167,6 +169,34 @@ for feat in polygon_features:
 # Display map in a bigger frame
 #st_data = 
 st_folium(m, width=900, height=600)
+
+# Second map: m2 — showing transport network
+m2 = folium.Map(location=[locations_gdf.geometry.y.mean(), locations_gdf.geometry.x.mean()], zoom_start=12)
+
+# Add stops
+for _, row in stops_df.iterrows():
+    folium.CircleMarker(
+        location=[row['lat'], row['lon']],
+        radius=3,
+        color='blue' if row['mode'] == 'tube' else 'green',
+        fill=True,
+        fill_opacity=0.6,
+        tooltip=row['stop_name']
+    ).add_to(m2)
+
+# Add lines as connections (optional — you can also skip this if only plotting stops)
+for _, row in lines_df.iterrows():
+    stop_coords = []
+    for stop_id in row['stops']:
+        stop = stops_df[stops_df['stop_id'] == stop_id].iloc[0]
+        stop_coords.append((stop['lat'], stop['lon']))
+    folium.PolyLine(
+        locations=stop_coords,
+        color='red' if row['mode'] == 'tube' else 'green',
+        weight=2,
+        tooltip=row['name']
+    ).add_to(m2)
+
 
 
 # adding schedule
