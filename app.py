@@ -172,7 +172,7 @@ for feat in polygon_features:
 #st_data = 
 st_folium(m, width=900, height=600)
 
-# Second map: m2 — showing transport network
+"""# Second map: m2 — showing transport network
 df = pd.read_csv('data/locations_with_stops.csv')
 locations_gdf = gpd.GeoDataFrame(
     df,
@@ -181,9 +181,9 @@ locations_gdf = gpd.GeoDataFrame(
 )
 stops_df = pd.read_csv('data/stops.csv')
 lines_df = pd.read_csv('data/lines.csv')
-lines_df['stops'] = lines_df['stops'].apply(ast.literal_eval)
+lines_df['stops'] = lines_df['stops'].apply(ast.literal_eval)"""
 
-m2 = folium.Map(location=[locations_gdf.geometry.y.mean(), locations_gdf.geometry.x.mean()], zoom_start=12)
+#m2 = folium.Map(location=[locations_gdf.geometry.y.mean(), locations_gdf.geometry.x.mean()], zoom_start=12)
 
 # Add stops
 """for _, row in stops_df.iterrows():
@@ -209,8 +209,8 @@ m2 = folium.Map(location=[locations_gdf.geometry.y.mean(), locations_gdf.geometr
         tooltip=row['name']
     ).add_to(m2)"""
 
-st.markdown("###  Full Transport Network View")
-st_folium(m2, width=900, height=600)
+"""st.markdown("###  Full Transport Network View")
+st_folium(m2, width=900, height=600)"""
 
 # adding schedule
 daily_schedule = {
