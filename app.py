@@ -180,7 +180,7 @@ locations_gdf = gpd.GeoDataFrame(
     crs='EPSG:4326'
 )
 stops_df = pd.read_csv('data/stops.csv')
-lines_df = pd.read_csv('lines.csv')
+lines_df = pd.read_csv('data/lines.csv')
 lines_df['stops'] = lines_df['stops'].apply(ast.literal_eval)
 
 m2 = folium.Map(location=[locations_gdf.geometry.y.mean(), locations_gdf.geometry.x.mean()], zoom_start=12)
