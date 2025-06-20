@@ -1,11 +1,11 @@
 import streamlit as st
 import folium
 from streamlit_folium import st_folium
-from streamlit_folium import folium_static
+#from streamlit_folium import folium_static
 import json
 import pandas as pd
-import networkx as nx
-from geopy.distance import geodesic
+#import networkx as nx
+#from geopy.distance import geodesic
 import geopandas as gpd
 import ast
 import os
@@ -173,7 +173,12 @@ for feat in polygon_features:
 st_folium(m, width=900, height=600)
 
 # Second map: m2 — showing transport network
-locations_gdf = gpd.read_file('data/locations_with_stops.geojson', engine='fiona')
+df = pd.read_csv('data/locations_with_stops.csv')
+locations_gdf = gpd.GeoDataFrame(
+    df,
+    geometry=gpd.points_from_xy(df['lon'], df['lat']),
+    crs='EPSG:4326'
+)
 stops_df = pd.read_csv('data/stops.csv')
 lines_df = pd.read_csv('lines.csv')
 lines_df['stops'] = lines_df['stops'].apply(ast.literal_eval)

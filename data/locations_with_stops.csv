@@ -1,0 +1,147 @@
+location_name,lat,lon,category,description,nearest_stop_index,nearest_stop_id
+"1 Craven Hill Gardens, London",51.5119614,-0.1820618,Hotel,Hotel,5479,49009081LF
+"British Museum, London",51.5193117,-0.1267051,Sight,Museum,4687,490011816N
+"Natural History Museum, London",51.496510900000004,-0.1760019,Sight,Museum,22940,490018704W
+"Science Museum, London",51.4973983,-0.17467259999999998,Sight,Museum,24234,490014048N
+"Saint Paul´s Cathedral, London",51.5137871,-0.0984506,Sight,Church,39324,490012873A
+Westminster Abbey,51.499399,-0.12739099999999998,Sight,Church,1741,490015048W
+"Tower Bridge, London",51.5055166,-0.0753662,Sight,Bridge,28021,490013744L
+Millennium Bridge,51.509888299999986,-0.0985076,Sight,Bridge,26814,490016494W
+"Big Ben, London",51.5007042,-0.1245721,Sight,"Monument, political building",1734,490014498S
+Palace of Westminster,51.4993886,-0.12448100000000001,Sight,"Monument, political building",1741,490015048W
+"Buckingham Palace, London",51.50083490000001,-0.1430045,Sight,"Monument, political building",25529,490014728S
+"Tower of London, London",51.508216999999995,-0.07618789999999999,Sight,"Monument, political building",46270,490013573X
+"Piccadilly Circus, London",51.5097922,-0.1344288,Sight,"Monument, political building",19,940GZZLUPCC
+"Chinatown Gate, London",51.510993299999996,-0.1318175,Sight,"Monument, political building",4695,490011791K
+"Trafalgar Square, London",51.5084502,-0.1284499,Sight,"Monument, political building",8099,490013767C
+Royal Court of Justice,51.51393999999999,-0.11326,Sight,"Monument, political building",15939,490011757M
+Kensington Palace,51.50607999999999,-0.18769999999999998,Sight,"Monument, political building",32735,490010536K
+London Wall,51.51015,-0.07602,Sight,"Monument, political building",308,940GZZLUTWH
+"Camden Market, London",51.54237809999999,-0.1471949,Sight,Market or Street,20245,490007876O
+"Leadenhall Market, London",51.512727599999984,-0.0833953,Sight,Market or Street,15066,490012783W
+"Covent Garden Market, London",51.511979100000005,-0.12274129999999997,Sight,Market or Street,763,940GZZLUCGN
+"Floral Court, London",51.511679699999995,-0.125085,Sight,Market or Street,763,940GZZLUCGN
+"Floral St, London",51.5121353,-0.1249686,Sight,Market or Street,763,940GZZLUCGN
+"Neal’s Yard, London",51.514427299999994,-0.1263781,Sight,Market or Street,39670,490023076W
+"Fleet St, London",51.513663599999994,-0.11197510000000001,Sight,Market or Street,22772,490015067W
+Borough Market,51.50589000000001,-0.09045999999999998,Sight,Market or Street,611,940GZZLULNB
+Royal Exchange,51.514239999999994,-0.08671,Sight,Market or Street,14979,490000013D
+"Royal Albert Hall, London",51.501007,-0.1774058,Sight,Theater or Cinema,40372,490011750W
+"Shakespeare's Globe, London",51.5081196,-0.09718669999999999,Sight,Theater or Cinema,22908,490012346N1
+"Royal Opera House, London",51.5128732,-0.1225639,Sight,Theater or Cinema,763,940GZZLUCGN
+"Electric Cinema, London",51.515524,-0.20506510000000003,Sight,Theater or Cinema,13291,490011137E2
+"Vaudeville Theatre, London",51.51053089999999,-0.1225862,Sight,Theater or Cinema,4644,490012247A
+"Harrods, London",51.49921040000001,-0.16298929999999998,Shopping,Shopping,41921,490007841KA
+"Oxford St, London",51.5150747,-0.14369029999999997,Shopping,Shopping,46029,490000173Z
+"Selfridges, London",51.5145955,-0.1528294,Shopping,Shopping,26300,490011985BX
+Waterstones Piccadilly,51.509264999999985,-0.13606899999999997,Shopping,Shopping,53279,490000179B
+Daunt Books 1,51.51664399999999,-0.08895100000000002,Shopping,Shopping,938,490015208A
+Daunt Books 2,51.520881,-0.152178,Shopping,Shopping,48885,490007807W
+John Sandoe Books,51.491609999999994,-0.16108,Shopping,Shopping,24229,490016310W
+Camden Passage,51.53482,-0.10398,Shopping,Shopping,28532,490000007Y
+BookBar Islington,51.565949999999994,-0.09912,Shopping,Shopping,49378,490003208S
+BookBar Chelsea,51.4912,-0.16812999999999997,Shopping,Shopping,24230,490016311N
+"Sky Garden, London",51.5112699,-0.08353959999999999,Sight,Roof Top,5656,490000148K
+"Horizon 22, London",51.51436699999999,-0.083149,Sight,Roof Top,51035,490012783E
+"The Garden at 120, London",51.5122226,-0.0808791,Sight,Roof Top,57484,910GFENCHRS
+"Outernet, London",51.515643,-0.1297955,Sight,Roof Top,9428,490000235N
+One New Change,51.513856099999984,-0.0950481,Sight,Roof Top,4092,490015124Z
+"Crossrail Place Roof Garden, London",51.50610209999999,-0.0176032,Sight,Roof Top,51053,490016707H
+"Kyoto Garden, London",51.5030786,-0.2045268,Sight,Garden,20279,490000113G
+"The Hill Garden and Pergola, London",51.565601499999985,-0.18396709999999997,Sight,Garden,11664,490009562W
+St Dunstan-in-the-East Church Garden,51.50983999999999,-0.08247,Sight,Garden,5632,490007418W
+Holly Village,51.56309,-0.14641,Sight,Garden,42169,490004454E
+"Italian Gardens, London",51.51046779999999,-0.1754714,Sight,Hyde Park,47591,490000133B
+"Speakers’ Corner, London",51.5118775,-0.16009729999999997,Sight,Hyde Park,5450,490000144W
+"The Old Police House, London",51.5081181,-0.16539429999999997,Sight,Hyde Park,47589,490008446W
+"Wellington Arch, London",51.5025031,-0.1508199,Sight,Hyde Park,3790,490000119F
+"Platform 9 3/4, London",51.5321868,-0.12391370000000002,Sight,Harry Potter Location,7473,490001171G
+"Leadenhall Market, London",51.512727599999984,-0.0833953,Sight,Harry Potter Location,15066,490012783W
+"Australian High Commission, London",51.5128785,-0.11559059999999997,Sight,Harry Potter Location,46280,490000293Z
+Warner Bros. Studio Tour London,51.690950699999995,-0.41831619999999997,Sight,Harry Potter Location,69348,910GKLGL
+Goodwin's Court,51.51112,-0.12625999999999998,Sight,Harry Potter Location,50634,490000135B
+House of MinaLima,51.51474,-0.13498,Sight,Harry Potter Location,33083,490014214HE
+"81 Bourdon Pl, London",51.511147099999995,-0.14598829999999996,Sight,Rubinrot Location,12351,490015119W
+"Inner Temple Gardens, London",51.5118538,-0.1096665,Sight,Rubinrot Location,22772,490015067W
+"Temple Church, London",51.5132574,-0.1102238,Sight,Rubinrot Location,22772,490015067W
+"King’s College London, London",51.50308549999999,-0.0900021,Sight,Rubinrot Location,23256,490013910S
+"Two Temple Place, London",51.51164440000001,-0.1121998,Sight,Rubinrot Location,262,940GZZLUTMP
+Society of middle Temple,51.512088,-0.11029999999999998,Sight,Rubinrot Location,22772,490015067W
+Trinity Church Belgravia,51.49319899999999,-0.15679099999999999,Sight,Rubinrot Location,41971,490000206D
+Inner Temple Library,51.51299,-0.10985,Sight,Rubinrot Location,22772,490015067W
+Fountain Court,51.513239999999996,-0.11179999999999998,Sight,Rubinrot Location,22772,490015067W
+British Library,51.5299119,-0.1276918,Sight,Invisible Library Location,53084,490015700C
+Horsleydown steps Tower Bridge,51.50423000000001,-0.07562000000000002,Sight,Photospot,28021,490013744L
+Bridge Arch Photo Westminster,51.500679999999996,-0.11989999999999998,Sight,Photospot,50756,490005646D
+food hall vauxhall,51.4875993,-0.1227623,Food,Food Hall,22923,490014020S
+Mercato Mayfair,51.51307889999999,-0.1532466,Food,Food Hall,26300,490011985BX
+Maltby Street Market,51.49982,-0.07593,Food,Food Hall,9411,490013154B
+Pastino,51.52247,-0.13603,Food,Restaurant,14085,490002121ZT
+Bancone Kensington,51.50094,-0.19287,Food,Restaurant,361,940GZZLUHSK
+Bancone Covent Garden,51.509710000000005,-0.12645,Food,Restaurant,8107,490016161S
+Bancone Golden Square,51.511489999999995,-0.13646,Food,Restaurant,4639,490004810RK
+Bancone Borough Yards,51.50668,-0.09160999999999998,Food,Restaurant,25636,490013424E
+Guido's Chancery Lane,51.51588,-0.11185,Food,Restaurant,22772,490015067W
+Guido's Kingsway,51.51417999999999,-0.11759000000000001,Food,Restaurant,13242,490000372Z
+Guido's New Fetter Lane,51.51749000000001,-0.10792999999999998,Food,Restaurant,4096,490008275G
+Guido's Camden Lock,51.54144000000001,-0.14621,Food,Restaurant,20245,490007876O
+Tavolino Bar & Kitchen,51.505649999999996,-0.08027,Food,Restaurant,22818,4900R0049J
+Comptoir Libanais Shepherd's Bush,51.51061,-0.22206999999999996,Food,Restaurant,395,940GZZLUWLA
+Comptoir Libanais Chelsea,51.493179999999995,-0.15899,Food,Restaurant,12338,490015175A
+Comptoir Libanais Kensington,51.49826,-0.17471999999999996,Food,Restaurant,24234,490014048N
+Comptoir Libanais Wigmore Street,51.51956,-0.15231,Food,Restaurant,2140,490015316J
+Comptoir Libanais Southbank Centre,51.50873,-0.11699,Food,Restaurant,8110,490020255S
+Comptoir Libanais London Bridge,51.50723,-0.08436999999999999,Food,Restaurant,50288,490000139S
+Comptoir Libanais Liverpool Street,51.52410999999999,-0.08436999999999999,Food,Restaurant,4279,490011448Z
+Trafalgar Tavern,51.48525999999999,-0.0042,Food,Restaurant,3616,490013764S
+Dream Xi'An Biangbiang Noodles,51.50910999999999,-0.07936999999999998,Food,Restaurant,5657,490007418E
+Haute Dolci the O2 luxury food and deserts,51.50445,0.00425,Food,Restaurant,8597,490010374E
+Terrace Bakery middle eastern,51.52711,-0.25974,Food,Restaurant,29189,490013003S
+Gnocchi Bar,51.54169,-0.14627999999999997,Food,Restaurant,20245,490007876O
+Portobello Ristorante & Pizzeria,51.51151,-0.19794999999999996,Food,Restaurant,49249,490005085S
+The Wallace Resturant,51.51786,-0.015288999999999999,Food,Restaurant,1575,490010043S
+Farzi Indian Restaurant,51.50920999999999,-0.13189,Food,Restaurant,46679,490007960P
+Yaatra Indian Restaurant,51.49676,-0.13424999999999998,Food,Restaurant,19470,490012941W
+Bellazul mediterranean,51.51836999999999,-0.15448,Food,Restaurant,2140,490015316J
+La Rueda Tapas Bar,51.51243999999999,-0.30608,Food,Restaurant,51463,490004143N
+Shoryu Ramen Carnaby,51.512840000000004,-0.13906,Food,Restaurant,6473,490004810RJ
+Shoryu Ramen Soho,51.51127,-0.13395,Food,Restaurant,4695,490011791K
+Shoryu Ramen Regent Street,51.50844,-0.13385999999999998,Food,Restaurant,4571,490011515Z
+Thonglor Thai,51.537839999999996,-0.18467,Food,Restaurant,4588,490004187N
+PaStation,51.52091999999999,-0.1348,Food,Restaurant,48426,490000089A
+Rasa indian recomm.,51.565850000000005,-0.07653999999999998,Food,Restaurant,1421,490009208A
+Chettinad indian recomm. spicy,51.51930999999999,-0.13294,Food,Restaurant,14087,490002124ZZ
+Rly recomm. vietnamese,51.51549,-0.1233,Food,Restaurant,9427,490006203RA
+SMOKESTAK recomm. meat,51.52388,-0.07294,Food,Restaurant,39622,490004313SA
+Dal Fiorentino Brick Lane recomm. ital. sandwiches,51.51930999999999,-0.13294,Food,Restaurant,14087,490002124ZZ
+La Creperie de Hampstead recomm.,51.55577,-0.17688,Food,Restaurant,50610,490000098A
+50 Kalo di ciro Salvo Pizzeria recomm.,51.50722,-0.12652999999999998,Food,Restaurant,45600,490013767W
+Baaria recomm. italian,51.512809999999995,-0.12856,Food,Restaurant,8101,490004695N
+Waxy's O'Connor's Pub,51.51099,-0.13238,Drinks,Pub,4695,490011791K
+The Sherlock Holmes Pub,51.50747999999999,-0.12522,Drinks,Pub,64267,910GCHRX
+The Holly Bush Pub,51.56136999999999,-0.18011,Drinks,Pub,16684,490008531S1
+The Lamb & Flag Pub,51.5119,-0.12568,Drinks,Pub,763,940GZZLUCGN
+Terrace Bakery middle eastern,51.52711,-0.25974,Cafe,Brunch,29189,490013003S
+Greek Street Live Brunch,51.5149,-0.13115,Cafe,Brunch,25454,490004695A
+The Table Cafe,51.50579,-0.09985999999999999,Cafe,Brunch,50016,490009011SQ
+Co. pricey,51.50232,-0.16309,Cafe,Coffee,40400,490008875KH
+Attendant Coffee Roasters - Fritzrovia,51.51946999999999,-0.14065,Cafe,Coffee,29579,490010198W
+Chaiiwala 1,51.52156,-0.07286,Cafe,Coffee,14306,490010584S
+Chaiiwala 2,51.52193,-0.12165999999999999,Cafe,Coffee,55232,490005624S
+Chaiiwala 3,51.49826,-0.16925999999999997,Cafe,Coffee,41965,490004437E
+Secret Layers Tiramisu experience,51.51322,-0.17803999999999998,Cafe,Pastries,17164,490000133A
+Java Whiskers Cat Cafe White City,51.510940000000005,-0.22323999999999997,Cafe,Pastries,16986,490000269B
+Java Whiskers Cat Cafe Marylebone,51.5212,-0.14238999999999996,Cafe,Pastries,29579,490010198W
+Jack and Beyond unlimited cake,51.4711,-0.17238,Cafe,Pastries,29069,490003687E
+The Wallace Cafe,51.51786,-0.015288999999999999,Cafe,Pastries,1575,490010043S
+Le Deli Robuchon Piccadilly,51.50739,-0.14396,Cafe,Pastries,48055,490000093PA
+Beigel Shop Bakery,51.52448,-0.07172,Cafe,Pastries,39622,490004313SA
+Brick Lane Bagel Co,51.50618999999999,-0.020150000000000005,Food,Fast Food,56844,940GZZDLWIQ
+Common Pizza,51.460899999999995,-0.14327,Food,Fast Food,4489,490011673W
+26 Grains recomm.,51.51453,-0.12631,Food,Brunch,39670,490023076W
+Circe's Rooftop,51.50327,-0.11036999999999998,Drinks,Bar,7746,490000254D
+Cahoots Postal Office,51.506040000000006,-0.09167999999999998,Drinks,Bar,25636,490013424E
+Greek Street Live,51.5149,-0.13115,Drinks,Bar,25454,490004695A
+Plume Wine Bar,51.51257999999999,-0.12013,Drinks,Bar,46555,490019703Z
+Belle Livingstone's Jazz Club,51.46994999999999,-0.06708,Drinks,Club,2695,490001223V
+The Top Secret Comedy Club,51.51564,-0.12325999999999997,Sight,Theater or Cinema,9427,490006203RA
