@@ -169,8 +169,8 @@
   },
   {
     "location_name": "Fleet St, London",
-    "lat": 51.51411,
-    "lon": -0.1095253,
+    "lat": 51.5136636,
+    "lon": -0.1119751,
     "category": "Sight",
     "description": "Market or Street"
   },
@@ -390,167 +390,6 @@
     "lon": -0.1508199,
     "category": "Sight",
     "description": "Hyde Park"
-  },
-  {
-    "location_name": "Platform 9 3/4, London",
-    "lat": 51.5321868,
-    "lon": -0.1239137,
-    "category": "Sight",
-    "description": "Harry Potter Location"
-  },
-  {
-    "location_name": "Leadenhall Market, London",
-    "lat": 51.5127276,
-    "lon": -0.0833953,
-    "category": "Sight",
-    "description": "Harry Potter Location"
-  },
-  {
-    "location_name": "Australian High Commission, London",
-    "lat": 51.5128785,
-    "lon": -0.1155906,
-    "category": "Sight",
-    "description": "Harry Potter Location"
-  },
-  {
-    "location_name": "Platform 9 3/4, London",
-    "lat": 51.5321868,
-    "lon": -0.1239137,
-    "category": "Sight",
-    "description": "Harry Potter Location"
-  },
-  {
-    "location_name": "Leadenhall Market, London",
-    "lat": 51.5127276,
-    "lon": -0.0833953,
-    "category": "Sight",
-    "description": "Harry Potter Location"
-  },
-  {
-    "location_name": "Australian High Commission, London",
-    "lat": 51.5128785,
-    "lon": -0.1155906,
-    "category": "Sight",
-    "description": "Harry Potter Location"
-  },
-  {
-    "location_name": "Platform 9 3/4, London",
-    "lat": 51.5321868,
-    "lon": -0.1239137,
-    "category": "Sight",
-    "description": "Harry Potter Location"
-  },
-  {
-    "location_name": "Goodwin's Court",
-    "lat": 51.51112,
-    "lon": -0.12626,
-    "category": "Sight",
-    "description": "Harry Potter Location"
-  },
-  {
-    "location_name": "Platform 9 3/4, London",
-    "lat": 51.5321868,
-    "lon": -0.1239137,
-    "category": "Sight",
-    "description": "Harry Potter Location"
-  },
-  {
-    "location_name": "Leadenhall Market, London",
-    "lat": 51.5127276,
-    "lon": -0.0833953,
-    "category": "Sight",
-    "description": "Harry Potter Location"
-  },
-  {
-    "location_name": "Goodwin's Court",
-    "lat": 51.51112,
-    "lon": -0.12626,
-    "category": "Sight",
-    "description": "Harry Potter Location"
-  },
-  {
-    "location_name": "Platform 9 3/4, London",
-    "lat": 51.5321868,
-    "lon": -0.1239137,
-    "category": "Sight",
-    "description": "Harry Potter Location"
-  },
-  {
-    "location_name": "Leadenhall Market, London",
-    "lat": 51.5127276,
-    "lon": -0.0833953,
-    "category": "Sight",
-    "description": "Harry Potter Location"
-  },
-  {
-    "location_name": "Australian High Commission, London",
-    "lat": 51.5128785,
-    "lon": -0.1155906,
-    "category": "Sight",
-    "description": "Harry Potter Location"
-  },
-  {
-    "location_name": "Goodwin's Court",
-    "lat": 51.51112,
-    "lon": -0.12626,
-    "category": "Sight",
-    "description": "Harry Potter Location"
-  },
-  {
-    "location_name": "Platform 9 3/4, London",
-    "lat": 51.5321868,
-    "lon": -0.1239137,
-    "category": "Sight",
-    "description": "Harry Potter Location"
-  },
-  {
-    "location_name": "Leadenhall Market, London",
-    "lat": 51.5127276,
-    "lon": -0.0833953,
-    "category": "Sight",
-    "description": "Harry Potter Location"
-  },
-  {
-    "location_name": "Australian High Commission, London",
-    "lat": 51.5128785,
-    "lon": -0.1155906,
-    "category": "Sight",
-    "description": "Harry Potter Location"
-  },
-  {
-    "location_name": "Platform 9 3/4, London",
-    "lat": 51.5321868,
-    "lon": -0.1239137,
-    "category": "Sight",
-    "description": "Harry Potter Location"
-  },
-  {
-    "location_name": "Leadenhall Market, London",
-    "lat": 51.5127276,
-    "lon": -0.0833953,
-    "category": "Sight",
-    "description": "Harry Potter Location"
-  },
-  {
-    "location_name": "Australian High Commission, London",
-    "lat": 51.5128785,
-    "lon": -0.1155906,
-    "category": "Sight",
-    "description": "Harry Potter Location"
-  },
-  {
-    "location_name": "Warner Bros. Studio Tour London",
-    "lat": 51.6909507,
-    "lon": -0.4183162,
-    "category": "Sight",
-    "description": "Harry Potter Location"
-  },
-  {
-    "location_name": "Goodwin's Court",
-    "lat": 51.51112,
-    "lon": -0.12626,
-    "category": "Sight",
-    "description": "Harry Potter Location"
   },
   {
     "location_name": "Platform 9 3/4, London",
@@ -945,6 +784,48 @@
     "description": "Restaurant"
   },
   {
+    "location_name": "Rly recomm. vietnamese",
+    "lat": 51.51549,
+    "lon": -0.1233,
+    "category": "Food",
+    "description": "Restaurant"
+  },
+  {
+    "location_name": "SMOKESTAK recomm. meat",
+    "lat": 51.52388,
+    "lon": -0.07294,
+    "category": "Food",
+    "description": "Restaurant"
+  },
+  {
+    "location_name": "Dal Fiorentino Brick Lane recomm. ital. sandwiches",
+    "lat": 51.51931,
+    "lon": -0.13294,
+    "category": "Food",
+    "description": "Restaurant"
+  },
+  {
+    "location_name": "La Creperie de Hampstead recomm.",
+    "lat": 51.55577,
+    "lon": -0.17688,
+    "category": "Food",
+    "description": "Restaurant"
+  },
+  {
+    "location_name": "50 Kalo di ciro Salvo Pizzeria recomm.",
+    "lat": 51.50722,
+    "lon": -0.12653,
+    "category": "Food",
+    "description": "Restaurant"
+  },
+  {
+    "location_name": "Baaria recomm. italian",
+    "lat": 51.51281,
+    "lon": -0.12856,
+    "category": "Food",
+    "description": "Restaurant"
+  },
+  {
     "location_name": "Waxy's O'Connor's Pub",
     "lat": 51.51099,
     "lon": -0.13238,
@@ -1004,6 +885,27 @@
     "location_name": "Attendant Coffee Roasters - Fritzrovia",
     "lat": 51.51947,
     "lon": -0.14065,
+    "category": "Cafe",
+    "description": "Coffee"
+  },
+  {
+    "location_name": "Chaiiwala 1",
+    "lat": 51.52156,
+    "lon": -0.07286,
+    "category": "Cafe",
+    "description": "Coffee"
+  },
+  {
+    "location_name": "Chaiiwala 2",
+    "lat": 51.52193,
+    "lon": -0.12166,
+    "category": "Cafe",
+    "description": "Coffee"
+  },
+  {
+    "location_name": "Chaiiwala 3",
+    "lat": 51.49826,
+    "lon": -0.16926,
     "category": "Cafe",
     "description": "Coffee"
   },
@@ -1069,6 +971,13 @@
     "lon": -0.14327,
     "category": "Food",
     "description": "Fast Food"
+  },
+  {
+    "location_name": "26 Grains recomm.",
+    "lat": 51.51453,
+    "lon": -0.12631,
+    "category": "Food",
+    "description": "Brunch"
   },
   {
     "location_name": "Circe's Rooftop",
