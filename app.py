@@ -7,6 +7,7 @@ import pandas as pd
 import networkx as nx
 from geopy.distance import geodesic
 import geopandas as gpd
+import ast
 import os
 os.environ["STREAMLIT_WATCH_USE_POLLING"] = "true"
 os.environ["STREAMLIT_WATCH_DISABLE"] = "true"
@@ -175,6 +176,7 @@ st_folium(m, width=900, height=600)
 locations_gdf = gpd.read_file('data/locations_with_stops.geojson')
 stops_df = pd.read_csv('data/stops.csv')
 lines_df = pd.read_csv('lines.csv')
+lines_df['stops'] = lines_df['stops'].apply(ast.literal_eval)
 
 m2 = folium.Map(location=[locations_gdf.geometry.y.mean(), locations_gdf.geometry.x.mean()], zoom_start=12)
 
@@ -202,6 +204,7 @@ for _, row in lines_df.iterrows():
         tooltip=row['name']
     ).add_to(m2)
 
+st.markdown("###  Full Transport Network View")
 st_folium(m2, width=900, height=600)
 
 # adding schedule
