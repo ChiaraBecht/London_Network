@@ -173,7 +173,7 @@ for feat in polygon_features:
 st_folium(m, width=900, height=600)
 
 # Second map: m2 — showing transport network
-locations_gdf = gpd.read_file('data/locations_with_stops.geojson')
+locations_gdf = gpd.read_file('data/locations_with_stops.geojson', engine='fiona')
 stops_df = pd.read_csv('data/stops.csv')
 lines_df = pd.read_csv('lines.csv')
 lines_df['stops'] = lines_df['stops'].apply(ast.literal_eval)
