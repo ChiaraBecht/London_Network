@@ -66,10 +66,11 @@ if show_area:
         style_function=lambda feature: {"fillColor": "228B22", "color": "black", "weight": 2, "fillOpacity": 0.2}
     ).add_to(m)
 
-# Public Transportation
+# Public Transportation lines to select or deselect
 with open("data/tfl/relevant_lines.json", "r") as f:
     relevant_lines = json.load(f)
 
+# add stops as markers
 with open("data/tfl/relevant_stops.json", "r") as f:
     relevant_stops = json.load(f)
 
@@ -101,6 +102,7 @@ for mode in modes:
                 for stop in line.get("stops", []):
                     coord = (stop["lat"], stop["lon"])
                     if coord in relevant_stops:
+                        print("coordinates found")
                         folium.CircleMarker(
                             location=[stop["lat"], stop["lon"]],
                             radius=3,
@@ -108,10 +110,12 @@ for mode in modes:
                             fill=True,
                             fill_color="white",
                             fill_opacity=1.0,
-                            #tooltip=stop.get("name", stop.get("id", ""))
+                            tooltip=stop.get("name", stop.get("id", ""))
                         ).add_to(fg)
 
         fg.add_to(m)
+
+
 
 # Add a layer control
 #folium.LayerControl(collapsed=False).add_to(m)
