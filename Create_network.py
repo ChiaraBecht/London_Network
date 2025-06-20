@@ -101,4 +101,4 @@ for _, line in line_df.iterrows():
 
 
 pickle.dump(G, open('data/network_graph.gpickle', 'wb'))
-locations_gdf.to_file('data/loations_with_stops.gejson', driver='GeoJSON')
+locations_gdf.to_file('data/locations_with_stops.gejson', driver='GeoJSON')
