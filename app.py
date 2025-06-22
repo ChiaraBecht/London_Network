@@ -217,7 +217,7 @@ daily_schedule = {
     "Monday": [("10:30", "Abflug Memmingen"), ("11:30", "Ankunft London Stansted"), ("12:00", "Transfer"), ("13:30", "Lunch"),  ("15:00", "Buckingham Palace"), ("", "Westminster Abbey, Parliament, Big Ben + Photospot"), ("", "Uber Boat: Themse Tour"), ("", "Tower Bridge + Photspot"), ("", "Millenium Bridge"), ("", "St Pauls Cathedral maybe from inside or elevator ride"), ("15:00 - 21:00", "Check-In Hotel")],
     "Tuesday": [("", "Book Location Day"), ("16:40", "Arrival at Warner Bros. Studio Tour"), ("17:00", "Start Warner Bros. Studio Tour")],
     "Wednesday": [("", "English Breakfast"), ("11:00", "Horizon 22")],
-    "Thursday": [("", "Science Museum"), ("", "Natural History Muesum") ("20:00", "Six Musical Vaudeville Theatre")],
+    "Thursday": [("", "Science Museum"), ("", "Natural History Muesum"), ("20:00", "Six Musical Vaudeville Theatre")],
     "Friday": [("time", "")],
     "Saturday": [("09:00 - 11:00", "Check-out"), ("16:20", "Rückflug London Stanted"), ("19:05", "Ankunft Memmingen")]
 }
