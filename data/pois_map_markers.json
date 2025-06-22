@@ -7,6 +7,13 @@
     "description": "Hotel"
   },
   {
+    "location_name": "Liverpool Street Station",
+    "lat": 51.521526,
+    "lon": -0.08084,
+    "category": "Hotel",
+    "description": "Hotel"
+  },
+  {
     "location_name": "British Museum, London",
     "lat": 51.5193117,
     "lon": -0.1267051,
@@ -169,8 +176,8 @@
   },
   {
     "location_name": "Fleet St, London",
-    "lat": 51.5136636,
-    "lon": -0.1119751,
+    "lat": 51.5141437,
+    "lon": -0.1092872,
     "category": "Sight",
     "description": "Market or Street"
   },
@@ -232,8 +239,8 @@
   },
   {
     "location_name": "Oxford St, London",
-    "lat": 51.5150747,
-    "lon": -0.1436903,
+    "lat": 51.5138053,
+    "lon": -0.1548743,
     "category": "Shopping",
     "description": "Shopping"
   },
