@@ -214,11 +214,11 @@ st_folium(m2, width=900, height=600)"""
 
 # adding schedule
 daily_schedule = {
-    "Monday": [("10:30", "Abflug Memmingen"), ("11:30", "Ankunft London Stansted"), ("12:00", "Transfer"), ("13:30", "Lunch"),  ("15:00", "Buckingham Palace"), ("", "Westminster Abbey, Parliament, Big Ben + Photospot"), ("", "Uber Boat: Themse Tour"), ("", "Tower Bridge + Photspot"), ("", "Millenium Bridge"), ("", "St Pauls Cathedral maybe from inside or elevator ride"), ("15:00 - 21:00", "Check-In Hotel")],
+    "Monday": [("10:30", "Abflug Memmingen"), ("11:30", "Ankunft London Stansted"), ("12:00", "Transfer"), ("13:30", "Lunch"), ("15:00", "Buckingham Palace"), ("", "Westminster Abbey, Parliament, Big Ben + Photospot"), ("", "Uber Boat: Themse Tour"), ("", "Tower Bridge + Photspot"), ("", "Millenium Bridge"), ("", "St Pauls Cathedral maybe from inside or elevator ride"), ("15:00 - 21:00", "Check-In Hotel")],
     "Tuesday": [("", "Book Location Day"), ("16:40", "Arrival at Warner Bros. Studio Tour"), ("17:00", "Start Warner Bros. Studio Tour")],
     "Wednesday": [("", "English Breakfast at the Table"), ("11:00", "Horizon 22"), ("", "Book Shop"), ("", "St Dunstan in the east"), ("", "Tower of London"), ("", "Borough Market"), ("", "Shakespeares Globe Theater"), ("", "Temple and Fleet Street")],
     "Thursday": [("", "Harrods"), ("11:15", "Natural History Muesum"), ("", "Science Museum"), ("", "Covent Garden"), ("", "Piccadilly"), ("", "Trafalgar Square"), ("20:00", "Six Musical Vaudeville Theatre")],
-    "Friday": [("", "Little Venice"), ("Notting Hill"), ("Kensington Palace"), ("", "Books"), ("", "maybe unlimited Cake"), ("", "Camden Market")],
+    "Friday": [("", "Little Venice"), ("", "Notting Hill"), ("", "Kensington Palace"), ("", "Books"), ("", "maybe unlimited Cake"), ("", "Camden Market")],
     "Saturday": [("09:00 - 11:00", "Check-out"), ("", "Outernet"), ("", "Neals Yard"), ("13:10", "Transfer from Liverpool Street"), ("16:20", "Rückflug London Stanted"), ("19:05", "Ankunft Memmingen")]
 }
 
